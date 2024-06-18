@@ -1,3 +1,6 @@
 {
-  "item.tylshardercrafting.copper_nugget": "Copper Nugget"
+  "item.tylshardercrafting.raw_copper_nugget": "Raw Copper Nugget",
+  "item.tylshardercrafting.copper_nugget": "Copper Nugget",
+
+  "itemgroup.hc_materials": "Materials (HC)"
 }

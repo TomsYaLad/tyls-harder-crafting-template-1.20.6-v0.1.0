@@ -10,9 +10,11 @@ import net.minecraft.util.Identifier;
 import net.tomsyalad.hardercrafting.TYLsHarderCrafting;
 
 public class ModItems {
+    public static final Item RAW_COPPER_NUGGET = registerItem("raw_copper_nugget", new Item(new Item.Settings()));
     public static final Item COPPER_NUGGET = registerItem("copper_nugget", new Item(new Item.Settings()));
 
     private static void addItemsToIngredientItemGroup(FabricItemGroupEntries entries) {
+        entries.add(RAW_COPPER_NUGGET);
         entries.add(COPPER_NUGGET);
     }
 
