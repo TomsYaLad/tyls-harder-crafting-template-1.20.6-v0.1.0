@@ -1,0 +1,40 @@
+{
+	"schemaVersion": 1,
+	"id": "tylshardercrafting",
+	"version": "${version}",
+	"name": "TYL's Harder Crafting",
+	"description": "v0.1.0 Ever thought that Minecraft's earlygame progression was too quick? No? Well, this mod looks to change that anyway, to make things more difficult and hopefully more satisfying too.",
+	"authors": [
+		"TomsYaLad"
+	],
+	"contact": {
+		"homepage": "https://fabricmc.net/",
+		"sources": "https://github.com/FabricMC/fabric-example-mod"
+	},
+	"license": "MIT",
+	"icon": "assets/tylshardercrafting/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"net.tomsyalad.hardercrafting.TYLsHarderCrafting"
+		],
+		"client": [
+			"net.tomsyalad.hardercrafting.TYLsHarderCraftingClient"
+		],
+		"fabric-datagen": [
+			"net.tomsyalad.hardercrafting.TYLsHarderCraftingDataGenerator"
+		]
+	},
+	"mixins": [
+		"tylshardercrafting.mixins.json"
+	],
+	"depends": {
+		"fabricloader": ">=0.15.11",
+		"minecraft": "~1.20.6",
+		"java": ">=21",
+		"fabric-api": "*"
+	},
+	"suggests": {
+		"another-mod": "*"
+	}
+}
