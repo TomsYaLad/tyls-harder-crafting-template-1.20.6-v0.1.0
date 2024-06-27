@@ -1,6 +1,23 @@
 {
   "item.tylshardercrafting.raw_copper_nugget": "Raw Copper Nugget",
   "item.tylshardercrafting.copper_nugget": "Copper Nugget",
+  "item.tylshardercrafting.raw_iron_nugget": "Raw Iron Nugget",
+  "item.tylshardercrafting.raw_gold_nugget": "Raw Gold Nugget",
+  "item.tylshardercrafting.pile_gravel": "Gravel Pile",
+  "item.tylshardercrafting.pile_gravel_pale": "Pale Gravel Pile",
+  "item.tylshardercrafting.pile_gravel_rustic": "Rustic Gravel Pile",
+  "item.tylshardercrafting.pile_sand": "Sand Pile",
+  "item.tylshardercrafting.pile_sand_red": "Red Sand Pile",
+  "item.tylshardercrafting.pile_sand_soul": "Soul Sand Pile",
+  "item.tylshardercrafting.rock": "Rock",
+  "item.tylshardercrafting.rock_dark": "Dark Rock",
+  "item.tylshardercrafting.rock_andesite": "Andesite Piece",
+  "item.tylshardercrafting.rock_calcite": "Calcite Piece",
+  "item.tylshardercrafting.rock_diorite": "Diorite Piece",
+  "item.tylshardercrafting.rock_granite": "Granite Piece",
+  "item.tylshardercrafting.rock_shale": "Shale",
+  "item.tylshardercrafting.rock_tuff": "Tuff Piece",
+  "item.tylshardercrafting.cement": "Cement",
 
   "itemgroup.hc_materials": "Materials (HC)"
 }
