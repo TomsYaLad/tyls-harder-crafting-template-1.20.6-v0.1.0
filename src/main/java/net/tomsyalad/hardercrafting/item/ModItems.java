@@ -2,6 +2,7 @@ package net.tomsyalad.hardercrafting.item;
 
 import net.fabricmc.fabric.api.itemgroup.v1.FabricItemGroupEntries;
 import net.fabricmc.fabric.api.itemgroup.v1.ItemGroupEvents;
+import net.fabricmc.fabric.impl.networking.NetworkHandlerExtensions;
 import net.minecraft.item.Item;
 import net.minecraft.item.ItemGroups;
 import net.minecraft.registry.Registries;
@@ -29,6 +30,8 @@ public class ModItems {
     public static final Item ROCK_SHALE = registerItem("rock_shale", new Item(new Item.Settings()));
     public static final Item ROCK_TUFF = registerItem("rock_tuff", new Item(new Item.Settings()));
     public static final Item CEMENT = registerItem("cement", new Item(new Item.Settings()));
+    public static final Item WITHER_BONE = registerItem("wither_bone", new Item(new Item.Settings()));
+    public static final Item NETHER_ASH = registerItem("nether_ash", new Item(new Item.Settings()));
 
     private static void addItemsToIngredientItemGroup(FabricItemGroupEntries entries) {
         entries.add(RAW_COPPER_NUGGET);
@@ -50,6 +53,8 @@ public class ModItems {
         entries.add(ROCK_SHALE);
         entries.add(ROCK_TUFF);
         entries.add(CEMENT);
+        entries.add(WITHER_BONE);
+        entries.add(NETHER_ASH);
     }
 
     private static Item registerItem(String name, Item item) {
