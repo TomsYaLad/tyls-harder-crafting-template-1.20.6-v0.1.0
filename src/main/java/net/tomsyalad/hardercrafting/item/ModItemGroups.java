@@ -13,6 +13,7 @@ public class ModItemGroups {
     public static final ItemGroup HC_MATERIALS_GROUP = Registry.register(Registries.ITEM_GROUP, new Identifier(TYLsHarderCrafting.MOD_ID, "hc_materials"),
             FabricItemGroup.builder().displayName(Text.translatable("itemgroup.hc_materials"))
                     .icon(() -> new ItemStack(ModItems.RAW_COPPER_NUGGET)).entries((displayContext, entries) -> {
+                        entries.add(ModItems.BARK_PIECE);
                         entries.add(ModItems.ROCK);
                         entries.add(ModItems.ROCK_DARK);
                         entries.add(ModItems.ROCK_ANDESITE);
@@ -28,6 +29,10 @@ public class ModItemGroups {
                         entries.add(ModItems.PILE_SAND_RED);
                         entries.add(ModItems.PILE_SAND_SOUL);
                         entries.add(ModItems.CEMENT);
+                        entries.add(ModItems.WITHER_BONE);
+                        entries.add(ModItems.NETHER_ASH);
+                        entries.add(ModItems.THREAD);
+                        entries.add(ModItems.CRUDE_TOOL_HANDLE);
                         entries.add(ModItems.RAW_COPPER_NUGGET);
                         entries.add(ModItems.COPPER_NUGGET);
                         entries.add(ModItems.RAW_IRON_NUGGET);

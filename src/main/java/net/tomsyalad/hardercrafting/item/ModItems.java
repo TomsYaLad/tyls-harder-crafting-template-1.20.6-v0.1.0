@@ -32,30 +32,33 @@ public class ModItems {
     public static final Item CEMENT = registerItem("cement", new Item(new Item.Settings()));
     public static final Item WITHER_BONE = registerItem("wither_bone", new Item(new Item.Settings()));
     public static final Item NETHER_ASH = registerItem("nether_ash", new Item(new Item.Settings()));
+    public static final Item BARK_PIECE = registerItem("bark_piece", new Item(new Item.Settings()));
+    public static final Item THREAD = registerItem("thread", new Item(new Item.Settings()));
+    public static final Item CRUDE_TOOL_HANDLE = registerItem("crude_tool_handle", new Item(new Item.Settings()));
 
-    private static void addItemsToIngredientItemGroup(FabricItemGroupEntries entries) {
-        entries.add(RAW_COPPER_NUGGET);
-        entries.add(COPPER_NUGGET);
-        entries.add(RAW_IRON_NUGGET);
-        entries.add(RAW_GOLD_NUGGET);
-        entries.add(PILE_GRAVEL);
-        entries.add(PILE_GRAVEL_PALE);
-        entries.add(PILE_GRAVEL_RUSTIC);
-        entries.add(PILE_SAND);
-        entries.add(PILE_SAND_RED);
-        entries.add(PILE_SAND_SOUL);
-        entries.add(ROCK);
-        entries.add(ROCK_DARK);
-        entries.add(ROCK_ANDESITE);
-        entries.add(ROCK_CALCITE);
-        entries.add(ROCK_DIORITE);
-        entries.add(ROCK_GRANITE);
-        entries.add(ROCK_SHALE);
-        entries.add(ROCK_TUFF);
-        entries.add(CEMENT);
-        entries.add(WITHER_BONE);
-        entries.add(NETHER_ASH);
-    }
+//    private static void addItemsToIngredientItemGroup(FabricItemGroupEntries entries) {
+//        entries.add(RAW_COPPER_NUGGET);
+//        entries.add(COPPER_NUGGET);
+//        entries.add(RAW_IRON_NUGGET);
+//        entries.add(RAW_GOLD_NUGGET);
+//        entries.add(PILE_GRAVEL);
+//        entries.add(PILE_GRAVEL_PALE);
+//        entries.add(PILE_GRAVEL_RUSTIC);
+//        entries.add(PILE_SAND);
+//        entries.add(PILE_SAND_RED);
+//        entries.add(PILE_SAND_SOUL);
+//        entries.add(ROCK);
+//        entries.add(ROCK_DARK);
+//        entries.add(ROCK_ANDESITE);
+//        entries.add(ROCK_CALCITE);
+//        entries.add(ROCK_DIORITE);
+//        entries.add(ROCK_GRANITE);
+//        entries.add(ROCK_SHALE);
+//        entries.add(ROCK_TUFF);
+//        entries.add(CEMENT);
+//        entries.add(WITHER_BONE);
+//        entries.add(NETHER_ASH);
+//    }
 
     private static Item registerItem(String name, Item item) {
         return Registry.register(Registries.ITEM, new Identifier(TYLsHarderCrafting.MOD_ID, name), item);
@@ -64,6 +67,6 @@ public class ModItems {
     public static void registerModItems() {
         TYLsHarderCrafting.LOGGER.info("Registering Mod Items for " + TYLsHarderCrafting.MOD_ID);
 
-        ItemGroupEvents.modifyEntriesEvent(ItemGroups.INGREDIENTS).register(ModItems::addItemsToIngredientItemGroup);
+//        ItemGroupEvents.modifyEntriesEvent(ItemGroups.INGREDIENTS).register(ModItems::addItemsToIngredientItemGroup);
     }
 }

@@ -20,6 +20,9 @@
   "item.tylshardercrafting.cement": "Cement",
   "item.tylshardercrafting.wither_bone": "Wither Bone",
   "item.tylshardercrafting.nether_ash": "Nether Ash",
+  "item.tylshardercrafting.bark_piece": "Bark Piece",
+  "item.tylshardercrafting.thread": "Thread",
+  "item.tylshardercrafting.crude_tool_handle": "Crude Tool Handle",
 
   "itemgroup.hc_materials": "Materials (HC)"
 }
