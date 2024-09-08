@@ -37,6 +37,7 @@ public class ModItemGroups {
                         entries.add(ModItems.COPPER_NUGGET);
                         entries.add(ModItems.RAW_IRON_NUGGET);
                         entries.add(ModItems.RAW_GOLD_NUGGET);
+                        entries.add(ModItems.TOME);
 
 
                     }).build());

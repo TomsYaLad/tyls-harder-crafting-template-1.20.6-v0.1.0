@@ -35,6 +35,7 @@ public class ModItems {
     public static final Item BARK_PIECE = registerItem("bark_piece", new Item(new Item.Settings()));
     public static final Item THREAD = registerItem("thread", new Item(new Item.Settings()));
     public static final Item CRUDE_TOOL_HANDLE = registerItem("crude_tool_handle", new Item(new Item.Settings()));
+    public static final Item TOME = registerItem("tome", new Item(new Item.Settings()));
 
 //    private static void addItemsToIngredientItemGroup(FabricItemGroupEntries entries) {
 //        entries.add(RAW_COPPER_NUGGET);
