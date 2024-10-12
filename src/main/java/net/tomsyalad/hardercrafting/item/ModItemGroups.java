@@ -8,12 +8,16 @@ import net.minecraft.registry.Registry;
 import net.minecraft.text.Text;
 import net.minecraft.util.Identifier;
 import net.tomsyalad.hardercrafting.TYLsHarderCrafting;
+import net.tomsyalad.hardercrafting.block.ModBlocks;
 
 public class ModItemGroups {
-    public static final ItemGroup HC_MATERIALS_GROUP = Registry.register(Registries.ITEM_GROUP, new Identifier(TYLsHarderCrafting.MOD_ID, "hc_materials"),
+    public static final ItemGroup HC_MATERIALS_GROUP = Registry.register(Registries.ITEM_GROUP,
+            new Identifier(TYLsHarderCrafting.MOD_ID, "hc_materials"),
             FabricItemGroup.builder().displayName(Text.translatable("itemgroup.hc_materials"))
                     .icon(() -> new ItemStack(ModItems.RAW_COPPER_NUGGET)).entries((displayContext, entries) -> {
                         entries.add(ModItems.BARK_PIECE);
+                        entries.add(ModBlocks.FRACTURED_STONE);
+                        entries.add(ModBlocks.FRACTURED_DRIPSTONE);
                         entries.add(ModItems.ROCK);
                         entries.add(ModItems.ROCK_DARK);
                         entries.add(ModItems.ROCK_ANDESITE);

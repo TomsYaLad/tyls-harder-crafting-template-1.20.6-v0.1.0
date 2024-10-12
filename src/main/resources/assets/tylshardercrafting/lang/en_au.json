@@ -25,5 +25,8 @@
   "item.tylshardercrafting.crude_tool_handle": "Crude Tool Handle",
   "item.tylshardercrafting.tome": "Tome",
 
+  "block.tylshardercrafting.fractured_stone": "Fractured Stone",
+  "block.tylshardercrafting.fractured_dripstone": "Fractured Dripstone",
+
   "itemgroup.hc_materials": "Materials (HC)"
 }

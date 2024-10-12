@@ -2,6 +2,7 @@ package net.tomsyalad.hardercrafting;
 
 import net.fabricmc.api.ModInitializer;
 
+import net.tomsyalad.hardercrafting.block.ModBlocks;
 import net.tomsyalad.hardercrafting.item.ModItemGroups;
 import net.tomsyalad.hardercrafting.item.ModItems;
 import org.slf4j.Logger;
@@ -22,5 +23,6 @@ public class TYLsHarderCrafting implements ModInitializer {
 		LOGGER.info("Hello Fabric world!");
 		ModItemGroups.registerItemGroups();
 		ModItems.registerModItems();
+		ModBlocks.registerModBlocks();
 	}
 }
