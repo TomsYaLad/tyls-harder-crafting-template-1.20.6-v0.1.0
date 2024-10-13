@@ -26,6 +26,10 @@ public class ModItemGroups {
                         entries.add(ModItems.ROCK_TUFF);
                         entries.add(ModItems.ROCK_CALCITE);
                         entries.add(ModItems.ROCK_SHALE);
+                        entries.add(ModBlocks.GRAVEL_DARK);
+                        entries.add(ModBlocks.GRAVEL_MIXED);
+                        entries.add(ModBlocks.GRAVEL_PALE);
+                        entries.add(ModBlocks.GRAVEL_RUSTIC);
                         entries.add(ModItems.PILE_GRAVEL);
                         entries.add(ModItems.PILE_GRAVEL_PALE);
                         entries.add(ModItems.PILE_GRAVEL_RUSTIC);

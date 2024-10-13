@@ -3,7 +3,7 @@
   "item.tylshardercrafting.copper_nugget": "Copper Nugget",
   "item.tylshardercrafting.raw_iron_nugget": "Raw Iron Nugget",
   "item.tylshardercrafting.raw_gold_nugget": "Raw Gold Nugget",
-  "item.tylshardercrafting.pile_gravel": "Gravel Pile",
+  "item.tylshardercrafting.pile_gravel": "Plain Gravel Pile",
   "item.tylshardercrafting.pile_gravel_pale": "Pale Gravel Pile",
   "item.tylshardercrafting.pile_gravel_rustic": "Rustic Gravel Pile",
   "item.tylshardercrafting.pile_sand": "Sand Pile",
@@ -27,6 +27,10 @@
 
   "block.tylshardercrafting.fractured_stone": "Fractured Stone",
   "block.tylshardercrafting.fractured_dripstone": "Fractured Dripstone",
+  "block.tylshardercrafting.gravel_dark": "Dark Gravel",
+  "block.tylshardercrafting.gravel_mixed": "Mixed Gravel",
+  "block.tylshardercrafting.gravel_pale": "Pale Gravel",
+  "block.tylshardercrafting.gravel_rustic": "Rustic Gravel",
 
   "itemgroup.hc_materials": "Materials (HC)"
 }
