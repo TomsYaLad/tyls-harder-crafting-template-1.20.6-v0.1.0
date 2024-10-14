@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "tylshardercrafting:wither_bone"
+    }
+  ],
+  "result": {
+    "count": 3,
+    "id": "tylshardercrafting:nether_ash"
+  }
+}

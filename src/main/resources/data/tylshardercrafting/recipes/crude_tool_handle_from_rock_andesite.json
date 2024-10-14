@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "#": {
+      "item": "minecraft:stick"
+    },
+    "X": {
+      "item": "tylshardercrafting:rock_andesite"
+    }
+  },
+  "pattern": [
+    " #",
+    "#X"
+  ],
+  "result": {
+    "count": 1,
+    "id": "tylshardercrafting:crude_tool_handle"
+  }
+}
