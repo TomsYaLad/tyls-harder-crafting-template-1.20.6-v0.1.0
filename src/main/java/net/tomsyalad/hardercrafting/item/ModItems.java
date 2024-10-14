@@ -15,6 +15,9 @@ public class ModItems {
     public static final Item COPPER_NUGGET = registerItem("copper_nugget", new Item(new Item.Settings()));
     public static final Item RAW_IRON_NUGGET = registerItem("raw_iron_nugget", new Item(new Item.Settings()));
     public static final Item RAW_GOLD_NUGGET = registerItem("raw_gold_nugget", new Item(new Item.Settings()));
+    public static final Item RAW_NETHER_GOLD = registerItem("raw_nether_gold", new Item(new Item.Settings()));
+    public static final Item NETHER_GOLD_NUGGET = registerItem("nether_gold_nugget", new Item(new Item.Settings()));
+    public static final Item NETHER_GOLD_INGOT = registerItem("nether_gold_ingot", new Item(new Item.Settings()));
     public static final Item PILE_GRAVEL = registerItem("pile_gravel", new Item(new Item.Settings()));
     public static final Item PILE_GRAVEL_PALE = registerItem("pile_gravel_pale", new Item(new Item.Settings()));
     public static final Item PILE_GRAVEL_RUSTIC = registerItem("pile_gravel_rustic", new Item(new Item.Settings()));
@@ -30,12 +33,22 @@ public class ModItems {
     public static final Item ROCK_SHALE = registerItem("rock_shale", new Item(new Item.Settings()));
     public static final Item ROCK_TUFF = registerItem("rock_tuff", new Item(new Item.Settings()));
     public static final Item CEMENT = registerItem("cement", new Item(new Item.Settings()));
+    public static final Item MORTAR = registerItem("mortar", new Item(new Item.Settings()));
     public static final Item WITHER_BONE = registerItem("wither_bone", new Item(new Item.Settings()));
     public static final Item NETHER_ASH = registerItem("nether_ash", new Item(new Item.Settings()));
     public static final Item BARK_PIECE = registerItem("bark_piece", new Item(new Item.Settings()));
     public static final Item THREAD = registerItem("thread", new Item(new Item.Settings()));
     public static final Item CRUDE_TOOL_HANDLE = registerItem("crude_tool_handle", new Item(new Item.Settings()));
     public static final Item TOME = registerItem("tome", new Item(new Item.Settings()));
+    public static final Item LUMBER_OAK = registerItem("lumber_oak", new Item(new Item.Settings()));
+    public static final Item LUMBER_BIRCH = registerItem("lumber_birch", new Item(new Item.Settings()));
+    public static final Item LUMBER_SPRUCE = registerItem("lumber_spruce", new Item(new Item.Settings()));
+    public static final Item CLAY_BOWL = registerItem("clay_bowl", new Item(new Item.Settings()));
+    public static final Item HIDE_COARSE = registerItem("hide_coarse", new Item(new Item.Settings()));
+    public static final Item HIDE_SCRAPED = registerItem("hide_scraped", new Item(new Item.Settings()));
+    public static final Item HIDE_SMOKED = registerItem("hide_smoked", new Item(new Item.Settings()));
+    public static final Item LEATHER_TANNED = registerItem("leather_tanned", new Item(new Item.Settings()));
+    public static final Item LEATHER_TRIMMED = registerItem("leather_trimmed", new Item(new Item.Settings()));
 
 //    private static void addItemsToIngredientItemGroup(FabricItemGroupEntries entries) {
 //        entries.add(RAW_COPPER_NUGGET);

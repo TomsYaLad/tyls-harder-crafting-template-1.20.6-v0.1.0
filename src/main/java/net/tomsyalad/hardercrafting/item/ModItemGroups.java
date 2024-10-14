@@ -14,7 +14,10 @@ public class ModItemGroups {
     public static final ItemGroup HC_MATERIALS_GROUP = Registry.register(Registries.ITEM_GROUP,
             new Identifier(TYLsHarderCrafting.MOD_ID, "hc_materials"),
             FabricItemGroup.builder().displayName(Text.translatable("itemgroup.hc_materials"))
-                    .icon(() -> new ItemStack(ModItems.RAW_COPPER_NUGGET)).entries((displayContext, entries) -> {
+                    .icon(() -> new ItemStack(ModItems.RAW_COPPER_NUGGET)).entries((displayContext,entries) -> {
+                        entries.add(ModItems.LUMBER_OAK);
+                        entries.add(ModItems.LUMBER_BIRCH);
+                        entries.add(ModItems.LUMBER_SPRUCE);
                         entries.add(ModItems.BARK_PIECE);
                         entries.add(ModBlocks.FRACTURED_STONE);
                         entries.add(ModBlocks.FRACTURED_DRIPSTONE);
@@ -37,15 +40,25 @@ public class ModItemGroups {
                         entries.add(ModItems.PILE_SAND_RED);
                         entries.add(ModItems.PILE_SAND_SOUL);
                         entries.add(ModItems.CEMENT);
-                        entries.add(ModItems.WITHER_BONE);
-                        entries.add(ModItems.NETHER_ASH);
+                        entries.add(ModItems.MORTAR);
+                        entries.add(ModItems.CLAY_BOWL);
                         entries.add(ModItems.THREAD);
+                        entries.add(ModItems.HIDE_COARSE);
+                        entries.add(ModItems.HIDE_SCRAPED);
+                        entries.add(ModItems.HIDE_SMOKED);
+                        entries.add(ModItems.LEATHER_TANNED);
+                        entries.add(ModItems.LEATHER_TRIMMED);
                         entries.add(ModItems.CRUDE_TOOL_HANDLE);
                         entries.add(ModItems.RAW_COPPER_NUGGET);
                         entries.add(ModItems.COPPER_NUGGET);
                         entries.add(ModItems.RAW_IRON_NUGGET);
                         entries.add(ModItems.RAW_GOLD_NUGGET);
+                        entries.add(ModItems.RAW_NETHER_GOLD);
+                        entries.add(ModItems.NETHER_GOLD_NUGGET);
+                        entries.add(ModItems.NETHER_GOLD_INGOT);
                         entries.add(ModItems.TOME);
+                        entries.add(ModItems.WITHER_BONE);
+                        entries.add(ModItems.NETHER_ASH);
 
 
                     }).build());
