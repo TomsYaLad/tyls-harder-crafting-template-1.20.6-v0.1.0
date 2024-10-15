@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:campfire_cooking",
+  "category": "misc",
+  "cookingtime": 400,
+  "experience": 0.3,
+  "ingredient": {
+    "item": "minecraft:brick"
+  },
+  "result": {
+    "id": "minecraft:bowl"
+  }
+}

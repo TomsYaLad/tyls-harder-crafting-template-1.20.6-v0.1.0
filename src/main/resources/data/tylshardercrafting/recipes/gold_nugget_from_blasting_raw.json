@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:blasting",
+  "category": "misc",
+  "cookingtime": 100,
+  "experience": 0.15,
+  "ingredient": {
+    "item": "tylshardercrafting:raw_gold_nugget"
+  },
+  "result": {
+    "id": "minecraft:gold_nugget"
+  }
+}

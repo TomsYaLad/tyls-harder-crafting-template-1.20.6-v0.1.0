@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "building",
+  "ingredients": [
+    {
+      "item": "tylshardercrafting:pile_gravel_rustic"
+    },
+    {
+      "item": "tylshardercrafting:pile_gravel_rustic"
+    },
+    {
+      "item": "minecraft:flint"
+    },
+    {
+      "item": "tylshardercrafting:rock"
+    }
+  ],
+  "result": {
+    "count": 1,
+    "id": "tylshardercrafting:gravel_rustic"
+  }
+}

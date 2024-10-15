@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "building",
+  "ingredients": [
+    {
+      "item": "tylshardercrafting:pile_gravel"
+    },
+    {
+      "item": "tylshardercrafting:pile_gravel"
+    },
+    {
+      "item": "tylshardercrafting:rock_dark"
+    },
+    {
+      "item": "tylshardercrafting:rock_dark"
+    }
+  ],
+  "result": {
+    "count": 1,
+    "id": "tylshardercrafting:gravel_dark"
+  }
+}
