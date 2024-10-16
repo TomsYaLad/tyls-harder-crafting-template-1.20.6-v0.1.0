@@ -49,6 +49,9 @@ public class ModItems {
     public static final Item HIDE_SMOKED = registerItem("hide_smoked", new Item(new Item.Settings()));
     public static final Item LEATHER_TANNED = registerItem("leather_tanned", new Item(new Item.Settings()));
     public static final Item LEATHER_TRIMMED = registerItem("leather_trimmed", new Item(new Item.Settings()));
+    public static final Item WOODEN_FRAMING = registerItem("wooden_framing", new Item(new Item.Settings()));
+    public static final Item CLOTH = registerItem("cloth", new Item(new Item.Settings()));
+    public static final Item PLACEHOLDER_TYL_HC = registerItem("placeholder_tyl_hc", new Item(new Item.Settings()));
 
 //    private static void addItemsToIngredientItemGroup(FabricItemGroupEntries entries) {
 //        entries.add(RAW_COPPER_NUGGET);

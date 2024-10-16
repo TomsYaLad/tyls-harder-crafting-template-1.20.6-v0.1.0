@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "tylshardercrafting:wooden_framing"
+    },
+    [
+      {
+        "item": "tylshardercrafting:leather_tanned"
+      },
+      {
+        "item": "tylshardercrafting:leather_trimmed"
+      }
+    ]
+  ],
+  "result": {
+    "count": 1,
+    "id": "minecraft:item_frame"
+  }
+}

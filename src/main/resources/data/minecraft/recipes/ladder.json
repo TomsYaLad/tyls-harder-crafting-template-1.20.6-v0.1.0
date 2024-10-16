@@ -1,0 +1,28 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "#": {
+      "item": "minecraft:stick"
+    },
+    "X": [
+      {
+        "item": "tylshardercrafting:lumber_oak"
+      },
+      {
+        "item": "tylshardercrafting:lumber_birch"
+      },
+      {
+        "item": "tylshardercrafting:lumber_spruce"
+      }
+    ]
+  },
+  "pattern": [
+    "X#X",
+    "X#X"
+  ],
+  "result": {
+    "count": 4,
+    "id": "minecraft:ladder"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    [
+      {
+        "item": "tylshardercrafting:lumber_oak"
+      },
+      {
+        "item": "tylshardercrafting:lumber_birch"
+      },
+      {
+        "item": "tylshardercrafting:lumber_spruce"
+      }
+    ]
+  ],
+  "result": {
+    "count": 2,
+    "id": "minecraft:stick"
+  }
+}

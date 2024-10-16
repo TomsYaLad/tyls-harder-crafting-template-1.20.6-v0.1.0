@@ -43,6 +43,8 @@ public class ModItemGroups {
                         entries.add(ModItems.MORTAR);
                         entries.add(ModItems.CLAY_BOWL);
                         entries.add(ModItems.THREAD);
+                        entries.add(ModItems.CLOTH);
+                        entries.add(ModItems.WOODEN_FRAMING);
                         entries.add(ModItems.HIDE_COARSE);
                         entries.add(ModItems.HIDE_SCRAPED);
                         entries.add(ModItems.HIDE_SMOKED);

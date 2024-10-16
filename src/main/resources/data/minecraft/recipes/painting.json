@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "tylshardercrafting:wooden_framing"
+    },
+    {
+      "item": "tylshardercrafting:cloth"
+    }
+  ],
+  "result": {
+    "count": 1,
+    "id": "minecraft:painting"
+  }
+}

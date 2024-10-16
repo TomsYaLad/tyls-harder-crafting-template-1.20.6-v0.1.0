@@ -37,6 +37,8 @@
   "item.tylshardercrafting.hide_smoked": "Smoked Hide",
   "item.tylshardercrafting.leather_tanned": "Tanned Leather",
   "item.tylshardercrafting.leather_trimmed": "Trimmed Leather",
+  "item.tylshardercrafting.wooden_framing": "Wooden Framing",
+  "item.tylshardercrafting.cloth": "Cloth",
 
   "block.tylshardercrafting.fractured_stone": "Fractured Stone",
   "block.tylshardercrafting.fractured_dripstone": "Fractured Dripstone",
@@ -46,4 +48,5 @@
   "block.tylshardercrafting.gravel_rustic": "Rustic Gravel",
 
   "itemgroup.hc_materials": "Materials (HC)"
+
 }
