@@ -1,0 +1,28 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "key": {
+    "#": {
+      "item": "minecraft:copper_ingot"
+    },
+    "X": {
+      "item": "minecraft:redstone"
+    },
+    "Q": [
+      {
+        "item": "minecraft:quartz"
+      },
+      {
+        "item": "minecraft:amethyst_shard"
+      }
+    ]
+  },
+  "pattern": [
+    "#X#",
+    " #Q"
+  ],
+  "result": {
+    "count": 1,
+    "id": "minecraft:clock"
+  }
+}

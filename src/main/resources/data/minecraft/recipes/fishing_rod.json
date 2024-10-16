@@ -1,0 +1,37 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "key": {
+    "T": {
+      "item": "tylshardercrafting:thread"
+    },
+    "/": {
+      "item": "tylshardercrafting:crude_tool_handle"
+    },
+    "I": {
+      "item": "minecraft:stick"
+    },
+    "S": {
+      "item": "minecraft:string"
+    },
+    "H": [
+      {
+        "item": "minecraft:iron_nugget"
+      },
+      {
+        "item": "minecraft:bone"
+      },
+      {
+        "item": "tylshardercrafting:wither_bone"
+      }
+    ]
+  },
+  "pattern": [
+    "/IS",
+    "T H"
+  ],
+  "result": {
+    "count": 1,
+    "id": "minecraft:fishing_rod"
+  }
+}
