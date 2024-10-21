@@ -30,6 +30,9 @@
       },
       {
         "item": "tylshardercrafting:nether_ash"
+      },
+      {
+        "item": "tylshardercrafting:tailings"
       }
     ],
     [
@@ -45,7 +48,7 @@
     ]
   ],
   "result": {
-    "count": 3,
+    "count": 4,
     "id": "tylshardercrafting:cement"
   }
 }

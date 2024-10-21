@@ -1,0 +1,28 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "key": {
+    "P": {
+      "item": "minecraft:glass_pane"
+    },
+    "C": {
+      "item": "minecraft:copper_ingot"
+    },
+    "L": [
+      {
+        "item": "tylshardercrafting:leather_tanned"
+      },
+      {
+        "item": "tylshardercrafting:leather_trimmed"
+      }
+    ]
+  },
+  "pattern": [
+    " PP",
+    "CLC"
+  ],
+  "result": {
+    "count": 1,
+    "id": "minecraft:spyglass"
+  }
+}

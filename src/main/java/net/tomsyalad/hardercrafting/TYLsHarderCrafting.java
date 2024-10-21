@@ -20,7 +20,8 @@ public class TYLsHarderCrafting implements ModInitializer {
 		// This code runs as soon as Minecraft is in a mod-load-ready state.
 		// However, some things (like resources) may still be uninitialized.
 		// Proceed with mild caution.
-		LOGGER.info("Hello Fabric world!");
+		LOGGER.info("Message from TYL (hi!):\n" +
+				"\t\t Minecraft is in a mod-load-ready state, though some things (like resources) may still be uninitialized.");
 		ModItemGroups.registerItemGroups();
 		ModItems.registerModItems();
 		ModBlocks.registerModBlocks();

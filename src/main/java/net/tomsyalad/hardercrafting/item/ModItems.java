@@ -18,6 +18,7 @@ public class ModItems {
     public static final Item RAW_NETHER_GOLD = registerItem("raw_nether_gold", new Item(new Item.Settings()));
     public static final Item NETHER_GOLD_NUGGET = registerItem("nether_gold_nugget", new Item(new Item.Settings()));
     public static final Item NETHER_GOLD_INGOT = registerItem("nether_gold_ingot", new Item(new Item.Settings()));
+    public static final Item HINGE = registerItem("hinge", new Item(new Item.Settings()));
     public static final Item PILE_GRAVEL = registerItem("pile_gravel", new Item(new Item.Settings()));
     public static final Item PILE_GRAVEL_PALE = registerItem("pile_gravel_pale", new Item(new Item.Settings()));
     public static final Item PILE_GRAVEL_RUSTIC = registerItem("pile_gravel_rustic", new Item(new Item.Settings()));
@@ -32,6 +33,7 @@ public class ModItems {
     public static final Item ROCK_GRANITE = registerItem("rock_granite", new Item(new Item.Settings()));
     public static final Item ROCK_SHALE = registerItem("rock_shale", new Item(new Item.Settings()));
     public static final Item ROCK_TUFF = registerItem("rock_tuff", new Item(new Item.Settings()));
+    public static final Item TAILINGS = registerItem("tailings", new Item(new Item.Settings()));
     public static final Item CEMENT = registerItem("cement", new Item(new Item.Settings()));
     public static final Item MORTAR = registerItem("mortar", new Item(new Item.Settings()));
     public static final Item WITHER_BONE = registerItem("wither_bone", new Item(new Item.Settings()));

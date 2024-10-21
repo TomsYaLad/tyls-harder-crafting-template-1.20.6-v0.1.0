@@ -1,7 +1,7 @@
 {
   "type": "minecraft:blasting",
   "category": "misc",
-  "cookingtime": 150,
+  "cookingtime": 200,
   "experience": 1.2,
   "ingredient": {
     "item": "tylshardercrafting:raw_nether_gold"

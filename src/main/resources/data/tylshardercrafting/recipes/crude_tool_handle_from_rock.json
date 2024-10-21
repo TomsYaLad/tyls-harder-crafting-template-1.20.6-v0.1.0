@@ -5,9 +5,29 @@
     "#": {
       "item": "minecraft:stick"
     },
-    "X": {
-      "item": "tylshardercrafting:rock"
-    }
+    "X": [
+      {
+        "item": "tylshardercrafting:rock"
+      },
+      {
+        "item": "tylshardercrafting:rock_dark"
+      },
+      {
+        "item": "tylshardercrafting:rock_andesite"
+      },
+      {
+        "item": "tylshardercrafting:rock_granite"
+      },
+      {
+        "item": "tylshardercrafting:rock_diorite"
+      },
+      {
+        "item": "tylshardercrafting:rock_tuff"
+      },
+      {
+        "item": "tylshardercrafting:rock_calcite"
+      }
+    ]
   },
   "pattern": [
     " #",

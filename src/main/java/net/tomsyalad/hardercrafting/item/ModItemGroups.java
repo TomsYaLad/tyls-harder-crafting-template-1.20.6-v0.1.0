@@ -29,6 +29,7 @@ public class ModItemGroups {
                         entries.add(ModItems.ROCK_TUFF);
                         entries.add(ModItems.ROCK_CALCITE);
                         entries.add(ModItems.ROCK_SHALE);
+                        entries.add(ModItems.TAILINGS);
                         entries.add(ModBlocks.GRAVEL_DARK);
                         entries.add(ModBlocks.GRAVEL_MIXED);
                         entries.add(ModBlocks.GRAVEL_PALE);
@@ -58,6 +59,7 @@ public class ModItemGroups {
                         entries.add(ModItems.RAW_NETHER_GOLD);
                         entries.add(ModItems.NETHER_GOLD_NUGGET);
                         entries.add(ModItems.NETHER_GOLD_INGOT);
+                        entries.add(ModItems.HINGE);
                         entries.add(ModItems.TOME);
                         entries.add(ModItems.WITHER_BONE);
                         entries.add(ModItems.NETHER_ASH);
