@@ -44,6 +44,8 @@ public class ModBlocks {
             });
 
 
+
+
     private static Block registerBlock(String name, Block block) {
         registerBlockItem(name, block);
         return Registry.register(Registries.BLOCK, new Identifier(TYLsHarderCrafting.MOD_ID, name), block);

@@ -31,7 +31,7 @@ public class ModItems {
     public static final Item ROCK_CALCITE = registerItem("rock_calcite", new Item(new Item.Settings()));
     public static final Item ROCK_DIORITE = registerItem("rock_diorite", new Item(new Item.Settings()));
     public static final Item ROCK_GRANITE = registerItem("rock_granite", new Item(new Item.Settings()));
-    public static final Item ROCK_SHALE = registerItem("rock_shale", new Item(new Item.Settings()));
+    public static final Item ROCK_SLATE = registerItem("rock_slate", new Item(new Item.Settings()));
     public static final Item ROCK_TUFF = registerItem("rock_tuff", new Item(new Item.Settings()));
     public static final Item TAILINGS = registerItem("tailings", new Item(new Item.Settings()));
     public static final Item CEMENT = registerItem("cement", new Item(new Item.Settings()));
