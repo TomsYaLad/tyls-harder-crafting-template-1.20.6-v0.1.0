@@ -18,6 +18,7 @@ public class ModItemGroups {
                         entries.add(ModItems.LUMBER_OAK);
                         entries.add(ModItems.LUMBER_BIRCH);
                         entries.add(ModItems.LUMBER_SPRUCE);
+                        entries.add(ModItems.LUMBER_ACACIA);
                         entries.add(ModItems.BARK_PIECE);
                         entries.add(ModBlocks.FRACTURED_STONE);
                         entries.add(ModBlocks.FRACTURED_DRIPSTONE);
@@ -60,6 +61,7 @@ public class ModItemGroups {
                         entries.add(ModItems.NETHER_GOLD_NUGGET);
                         entries.add(ModItems.NETHER_GOLD_INGOT);
                         entries.add(ModItems.HINGE);
+                        entries.add(ModItems.SENSOR_PANEL);
                         entries.add(ModItems.TOME);
                         entries.add(ModItems.WITHER_BONE);
                         entries.add(ModItems.NETHER_ASH);

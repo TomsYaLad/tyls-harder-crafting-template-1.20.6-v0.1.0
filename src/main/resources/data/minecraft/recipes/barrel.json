@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "L": {
+      "tag": "minecraft:planks"
+    },
+    "C": {
+      "item": "minecraft:copper_ingot"
+    }
+  },
+  "pattern": [
+    "L L",
+    "LCL"
+  ],
+  "result": {
+    "count": 1,
+    "id": "minecraft:barrel"
+  }
+}
+
+//unfinished - update to use lumber after adding tags

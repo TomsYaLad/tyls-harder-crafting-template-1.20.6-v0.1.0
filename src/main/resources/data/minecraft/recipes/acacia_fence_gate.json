@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "redstone",
+  "group": "wooden_fence_gate",
+  "key": {
+    "S": {
+      "item": "minecraft:stick"
+    },
+    "L": {
+      "item": "tylshardercrafting:lumber_acacia"
+    }
+  },
+  "pattern": [
+    "SLS",
+    "SLS"
+  ],
+  "result": {
+    "count": 1,
+    "id": "minecraft:acacia_fence_gate"
+  }
+}

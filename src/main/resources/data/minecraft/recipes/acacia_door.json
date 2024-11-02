@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "redstone",
+  "group": "wooden_trapdoor",
+  "key": {
+    "P": {
+      "item": "minecraft:acacia_planks"
+    },
+    "H": {
+      "item": "tylshardercrafting:hinge"
+    }
+  },
+  "pattern": [
+    "PH",
+    "PH"
+  ],
+  "result": {
+    "count": 1,
+    "id": "minecraft:acacia_door"
+  }
+}

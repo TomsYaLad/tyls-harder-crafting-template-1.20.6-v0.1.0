@@ -19,6 +19,7 @@ public class ModItems {
     public static final Item NETHER_GOLD_NUGGET = registerItem("nether_gold_nugget", new Item(new Item.Settings()));
     public static final Item NETHER_GOLD_INGOT = registerItem("nether_gold_ingot", new Item(new Item.Settings()));
     public static final Item HINGE = registerItem("hinge", new Item(new Item.Settings()));
+    public static final Item SENSOR_PANEL = registerItem("sensor_panel", new Item(new Item.Settings()));
     public static final Item PILE_GRAVEL = registerItem("pile_gravel", new Item(new Item.Settings()));
     public static final Item PILE_GRAVEL_PALE = registerItem("pile_gravel_pale", new Item(new Item.Settings()));
     public static final Item PILE_GRAVEL_RUSTIC = registerItem("pile_gravel_rustic", new Item(new Item.Settings()));
@@ -45,6 +46,7 @@ public class ModItems {
     public static final Item LUMBER_OAK = registerItem("lumber_oak", new Item(new Item.Settings()));
     public static final Item LUMBER_BIRCH = registerItem("lumber_birch", new Item(new Item.Settings()));
     public static final Item LUMBER_SPRUCE = registerItem("lumber_spruce", new Item(new Item.Settings()));
+    public static final Item LUMBER_ACACIA = registerItem("lumber_acacia", new Item(new Item.Settings()));
     public static final Item CLAY_BOWL = registerItem("clay_bowl", new Item(new Item.Settings()));
     public static final Item HIDE_COARSE = registerItem("hide_coarse", new Item(new Item.Settings()));
     public static final Item HIDE_SCRAPED = registerItem("hide_scraped", new Item(new Item.Settings()));

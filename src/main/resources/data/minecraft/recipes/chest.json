@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "L": {
+      "tag": "minecraft:planks"
+    },
+    "H": {
+      "item": "tylshardercrafting:hinge"
+    }
+  },
+  "pattern": [
+    "LLL",
+    "H H",
+    "LLL"
+  ],
+  "result": {
+    "count": 1,
+    "id": "minecraft:chest"
+  }
+}
+
+//unfinished - update to use lumber after adding tags
