@@ -1,6 +1,9 @@
 {
   "replace": false,
   "values": [
-    "tylshardercrafting:gravel_dark"
+    "tylshardercrafting:gravel_dark",
+    "tylshardercrafting:gravel_rustic",
+    "tylshardercrafting:gravel_pale",
+    "tylshardercrafting:gravel_mixed"
   ]
 }

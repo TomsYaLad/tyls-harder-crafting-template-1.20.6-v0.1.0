@@ -3,9 +3,14 @@
   "category": "misc",
   "group": "wooden_sign",
   "key": {
-    "L": {
-      "item": "tylshardercrafting:lumber_acacia"
-    },
+    "L": [
+      {
+        "item": "minecraft:acacia_slab"
+      },
+      {
+        "item": "tylshardercrafting:lumber_acacia"
+      }
+    ],
     "S": {
       "item": "minecraft:stick"
     }

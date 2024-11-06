@@ -41,6 +41,7 @@ public class ModItemGroups {
                         entries.add(ModItems.PILE_SAND);
                         entries.add(ModItems.PILE_SAND_RED);
                         entries.add(ModItems.PILE_SAND_SOUL);
+                        entries.add(ModItems.RAW_GLASS);
                         entries.add(ModItems.CEMENT);
                         entries.add(ModItems.MORTAR);
                         entries.add(ModItems.CLAY_BOWL);
@@ -57,6 +58,7 @@ public class ModItemGroups {
                         entries.add(ModItems.COPPER_NUGGET);
                         entries.add(ModItems.RAW_IRON_NUGGET);
                         entries.add(ModItems.RAW_GOLD_NUGGET);
+                        entries.add(ModItems.RAW_NETHER_GOLD_NUGGET);
                         entries.add(ModItems.RAW_NETHER_GOLD);
                         entries.add(ModItems.NETHER_GOLD_NUGGET);
                         entries.add(ModItems.NETHER_GOLD_INGOT);

@@ -1,7 +1,7 @@
 {
   "type": "minecraft:blasting",
   "category": "misc",
-  "cookingtime": 50,
+  "cookingtime": 25,
   "experience": 0.15,
   "ingredient": {
     "item": "tylshardercrafting:raw_iron_nugget"

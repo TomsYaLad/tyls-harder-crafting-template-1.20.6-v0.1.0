@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "tylshardercrafting:raw_nether_gold"
+    }
+  ],
+  "result": {
+    "count": 6,
+    "id": "tylshardercrafting:raw_nether_gold_nugget"
+  }
+}

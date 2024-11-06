@@ -1,19 +1,11 @@
 {
   "type": "minecraft:smelting",
   "category": "blocks",
-  "cookingtime": 200,
+  "cookingtime": 150,
   "experience": 0.1,
-  "ingredient": [
-    {
-      "item": "tylshardercrafting:pile_sand"
-    },
-    {
-      "item": "tylshardercrafting:pile_sand_red"
-    },
-    {
-      "item": "tylshardercrafting:pile_sand_soul"
-    }
-  ],
+  "ingredient": {
+    "item": "tylshardercrafting:raw_glass"
+  },
   "result": {
     "id": "minecraft:glass_pane"
   }

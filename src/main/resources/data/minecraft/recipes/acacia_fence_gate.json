@@ -6,9 +6,14 @@
     "S": {
       "item": "minecraft:stick"
     },
-    "L": {
-      "item": "tylshardercrafting:lumber_acacia"
-    }
+    "L": [
+      {
+        "item": "minecraft:acacia_slab"
+      },
+      {
+        "item": "tylshardercrafting:lumber_acacia"
+      }
+    ]
   },
   "pattern": [
     "SLS",

@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "building",
+  "ingredients": [
+    {
+      "item": "tylshardercrafting:pile_sand_soul"
+    },
+    {
+      "item": "tylshardercrafting:pile_sand_soul"
+    },
+    {
+      "item": "tylshardercrafting:pile_gravel_rustic"
+    },
+    {
+      "item": "tylshardercrafting:nether_gravel_rustic"
+    }
+  ],
+  "result": {
+    "count": 1,
+    "id": "minecraft:soul_soil"
+  }
+}

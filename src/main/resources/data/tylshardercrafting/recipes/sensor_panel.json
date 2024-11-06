@@ -1,0 +1,46 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "redstone",
+  "ingredients": [
+    {
+      "item": "minecraft:redstone"
+    },
+    {
+      "item": "tylshardercrafting:hinge"
+    },
+    [
+      {
+        "item": "tylshardercrafting:copper_nugget"
+      },
+      {
+        "item": "tylshardercrafting:raw_copper_nugget"
+      }
+    ],
+    {
+      "item": "minecraft:lapis_lazuli"
+    },
+    [
+      {
+        "item": "minecraft:gold_nugget"
+      },
+      {
+        "item": "tylshardercrafting:raw_gold_nugget"
+      },
+      {
+        "item": "tylshardercrafting:nether_gold_nugget"
+      }
+    ],
+    [
+      {
+        "item": "tylshardercrafting:copper_nugget"
+      },
+      {
+        "item": "tylshardercrafting:raw_copper_nugget"
+      }
+    ]
+  ],
+  "result": {
+    "count": 2,
+    "id": "tylshardercrafting:sensor_panel"
+  }
+}

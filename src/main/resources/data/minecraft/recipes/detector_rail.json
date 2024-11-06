@@ -6,10 +6,7 @@
       "item": "minecraft:rail"
     },
     {
-      "item": "minecraft:stone_pressure_plate"
-    },
-    {
-      "item": "minecraft:redstone"
+      "item": "tylshardercrafting:sensor_panel"
     }
   ],
   "result": {

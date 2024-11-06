@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:blasting",
+  "category": "misc",
+  "cookingtime": 200,
+  "experience": 1.0,
+  "group": "gold_ingot",
+  "ingredient": {
+    "item": "minecraft:nether_gold_ore"
+  },
+  "result": {
+    "id": "tylshardercrafting:raw_nether_gold_nugget"
+  }
+}

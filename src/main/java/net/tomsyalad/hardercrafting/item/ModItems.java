@@ -15,6 +15,7 @@ public class ModItems {
     public static final Item COPPER_NUGGET = registerItem("copper_nugget", new Item(new Item.Settings()));
     public static final Item RAW_IRON_NUGGET = registerItem("raw_iron_nugget", new Item(new Item.Settings()));
     public static final Item RAW_GOLD_NUGGET = registerItem("raw_gold_nugget", new Item(new Item.Settings()));
+    public static final Item RAW_NETHER_GOLD_NUGGET = registerItem("raw_nether_gold_nugget", new Item(new Item.Settings()));
     public static final Item RAW_NETHER_GOLD = registerItem("raw_nether_gold", new Item(new Item.Settings()));
     public static final Item NETHER_GOLD_NUGGET = registerItem("nether_gold_nugget", new Item(new Item.Settings()));
     public static final Item NETHER_GOLD_INGOT = registerItem("nether_gold_ingot", new Item(new Item.Settings()));
@@ -26,6 +27,7 @@ public class ModItems {
     public static final Item PILE_SAND = registerItem("pile_sand", new Item(new Item.Settings()));
     public static final Item PILE_SAND_RED = registerItem("pile_sand_red", new Item(new Item.Settings()));
     public static final Item PILE_SAND_SOUL = registerItem("pile_sand_soul", new Item(new Item.Settings()));
+    public static final Item RAW_GLASS = registerItem("raw_glass", new Item(new Item.Settings()));
     public static final Item ROCK = registerItem("rock", new Item(new Item.Settings()));
     public static final Item ROCK_DARK = registerItem("rock_dark", new Item(new Item.Settings()));
     public static final Item ROCK_ANDESITE = registerItem("rock_andesite", new Item(new Item.Settings()));

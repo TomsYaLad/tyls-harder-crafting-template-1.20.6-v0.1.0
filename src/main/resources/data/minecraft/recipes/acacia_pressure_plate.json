@@ -10,12 +10,20 @@
         "item": "tylshardercrafting:lumber_acacia"
       }
     ],
+    [
+      {
+        "item": "minecraft:acacia_slab"
+      },
+      {
+        "item": "tylshardercrafting:lumber_acacia"
+      }
+    ],
     {
       "item": "tylshardercrafting:sensor_panel"
     }
   ],
   "result": {
     "count": 2,
-    "id": "minecraft:acacia_button"
+    "id": "minecraft:acacia_pressure_plate"
   }
 }

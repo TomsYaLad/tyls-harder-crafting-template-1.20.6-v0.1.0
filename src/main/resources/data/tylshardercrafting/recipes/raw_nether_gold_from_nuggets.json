@@ -3,7 +3,7 @@
   "category": "misc",
   "key": {
     "#": {
-      "item": "tylshardercrafting:raw_gold_nugget"
+      "item": "tylshardercrafting:raw_nether_gold_nugget"
     }
   },
   "pattern": [
@@ -12,6 +12,6 @@
   ],
   "result": {
     "count": 1,
-    "id": "minecraft:raw_gold"
+    "id": "tylshardercrafting:raw_nether_gold"
   }
 }
