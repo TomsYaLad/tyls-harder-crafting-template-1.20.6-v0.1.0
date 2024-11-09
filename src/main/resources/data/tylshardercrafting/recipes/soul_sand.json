@@ -1,6 +1,7 @@
 {
   "type": "minecraft:crafting_shapeless",
   "category": "building",
+  "group": "soul_sands",
   "ingredients": [
     {
       "item": "tylshardercrafting:pile_sand_soul"

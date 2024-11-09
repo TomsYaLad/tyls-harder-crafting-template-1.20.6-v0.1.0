@@ -62,13 +62,21 @@ public class ModItemGroups {
                         entries.add(ModItems.RAW_NETHER_GOLD);
                         entries.add(ModItems.NETHER_GOLD_NUGGET);
                         entries.add(ModItems.NETHER_GOLD_INGOT);
+                        entries.add(ModBlocks.RAW_NETHER_GOLD_BLOCK);
+                        entries.add(ModBlocks.NETHER_GOLD_BLOCK);
                         entries.add(ModItems.HINGE);
                         entries.add(ModItems.SENSOR_PANEL);
                         entries.add(ModItems.TOME);
                         entries.add(ModItems.WITHER_BONE);
                         entries.add(ModItems.NETHER_ASH);
+                    }).build());
 
 
+    public static final ItemGroup HC_EQUIPMENT_GROUP = Registry.register(Registries.ITEM_GROUP,
+            new Identifier(TYLsHarderCrafting.MOD_ID, "hc_equipment"),
+            FabricItemGroup.builder().displayName(Text.translatable("itemgroup.hc_equipment"))
+                    .icon(() -> new ItemStack(ModItems.PLACEHOLDER_TYL_HC)).entries((displayContext,entries) -> {
+                        entries.add(ModItems.PLACEHOLDER_TYL_HC);
                     }).build());
 
 

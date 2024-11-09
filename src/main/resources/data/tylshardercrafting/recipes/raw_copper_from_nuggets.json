@@ -1,6 +1,7 @@
 {
   "type": "minecraft:crafting_shaped",
   "category": "misc",
+  "group": "raw_copper",
   "key": {
     "#": {
       "item": "tylshardercrafting:raw_copper_nugget"

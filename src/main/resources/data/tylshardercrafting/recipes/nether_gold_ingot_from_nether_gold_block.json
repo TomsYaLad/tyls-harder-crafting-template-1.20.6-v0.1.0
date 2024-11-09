@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "group": "nether_gold_ingot",
+  "ingredients": [
+    {
+      "item": "tylshardercrafting:nether_gold_block"
+    }
+  ],
+  "result": {
+    "count": 6,
+    "id": "tylshardercrafting:nether_gold_ingot"
+  }
+}

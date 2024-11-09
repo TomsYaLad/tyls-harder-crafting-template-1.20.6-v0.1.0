@@ -1,6 +1,7 @@
 {
   "type": "minecraft:blasting",
   "category": "misc",
+  "group": "nether_gold_ingot",
   "cookingtime": 200,
   "experience": 1.2,
   "ingredient": {

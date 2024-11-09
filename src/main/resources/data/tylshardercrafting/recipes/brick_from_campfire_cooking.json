@@ -4,9 +4,9 @@
   "cookingtime": 400,
   "experience": 0.3,
   "ingredient": {
-    "item": "minecraft:brick"
+    "item": "minecraft:clay_ball"
   },
   "result": {
-    "id": "minecraft:bowl"
+    "id": "minecraft:brick"
   }
 }

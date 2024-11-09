@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "group": "cobblestones",
+  "key": {
+    "#": {
+      "item": "tylshardercrafting:rock_dark"
+    }
+  },
+  "pattern": [
+    "##",
+    "##"
+  ],
+  "result": {
+    "count": 1,
+    "id": "minecraft:cobbled_deepslate"
+  }
+}

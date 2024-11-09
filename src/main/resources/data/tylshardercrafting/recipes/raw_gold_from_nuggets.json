@@ -1,6 +1,7 @@
 {
   "type": "minecraft:crafting_shaped",
   "category": "misc",
+  "group": "raw_gold",
   "key": {
     "#": {
       "item": "tylshardercrafting:raw_gold_nugget"

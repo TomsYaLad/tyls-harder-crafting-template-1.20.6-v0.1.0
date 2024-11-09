@@ -1,7 +1,7 @@
 {
   "type": "minecraft:crafting_shaped",
   "category": "redstone",
-  "group": "wooden_trapdoor",
+  "group": "wooden_door",
   "key": {
     "P": {
       "item": "minecraft:acacia_planks"

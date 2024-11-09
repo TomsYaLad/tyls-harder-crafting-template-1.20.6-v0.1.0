@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "group": "raw_nether_gold",
+  "ingredients": [
+    {
+      "item": "tylshardercrafting:raw_nether_gold_block"
+    }
+  ],
+  "result": {
+    "count": 6,
+    "id": "tylshardercrafting:raw_nether_gold"
+  }
+}

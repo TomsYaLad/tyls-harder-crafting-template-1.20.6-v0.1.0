@@ -1,6 +1,7 @@
 {
   "type": "minecraft:crafting_shapeless",
   "category": "misc",
+  "group": "lumber",
   "ingredients": [
     {
       "item": "minecraft:acacia_planks"

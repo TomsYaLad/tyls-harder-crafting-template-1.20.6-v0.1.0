@@ -1,6 +1,7 @@
 {
   "type": "minecraft:blasting",
   "category": "misc",
+  "group": "nether_gold_nugget",
   "cookingtime": 50,
   "experience": 1.2,
   "ingredient": {

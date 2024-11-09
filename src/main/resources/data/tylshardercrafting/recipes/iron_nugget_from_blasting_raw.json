@@ -1,6 +1,7 @@
 {
   "type": "minecraft:blasting",
   "category": "misc",
+  "group": "iron_nugget",
   "cookingtime": 25,
   "experience": 0.15,
   "ingredient": {

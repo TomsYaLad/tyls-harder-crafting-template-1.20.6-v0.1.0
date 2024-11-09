@@ -52,7 +52,10 @@
   "block.tylshardercrafting.gravel_mixed": "Mixed Gravel",
   "block.tylshardercrafting.gravel_pale": "Pale Gravel",
   "block.tylshardercrafting.gravel_rustic": "Rustic Gravel",
+  "block.tylshardercrafting.nether_gold_block": "Nether Gold Block",
+  "block.tylshardercrafting.raw_nether_gold_block": "Raw Nether Gold Block",
 
-  "itemgroup.hc_materials": "Materials (TYL HC)"
+  "itemgroup.hc_materials": "Materials (TYL HC)",
+  "itemgroup.hc_equipment": "Equipment (TYL HC)"
 
 }

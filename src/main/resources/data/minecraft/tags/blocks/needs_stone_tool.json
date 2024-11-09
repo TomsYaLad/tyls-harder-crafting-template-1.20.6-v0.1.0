@@ -1,6 +1,7 @@
 {
   "replace": false,
   "values": [
-
+    "tylshardercrafting:raw_nether_gold_block",
+    "tylshardercrafting:nether_gold_block"
   ]
 }

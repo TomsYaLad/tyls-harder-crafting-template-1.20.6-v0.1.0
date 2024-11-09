@@ -1,6 +1,7 @@
 {
   "type": "minecraft:blasting",
   "category": "misc",
+  "group": "copper_nugget",
   "cookingtime": 25,
   "experience": 0.1,
   "ingredient": {

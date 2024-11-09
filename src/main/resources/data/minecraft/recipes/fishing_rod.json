@@ -5,7 +5,7 @@
     "T": {
       "item": "tylshardercrafting:thread"
     },
-    "/": {
+    "C": {
       "item": "tylshardercrafting:crude_tool_handle"
     },
     "I": {
@@ -27,8 +27,8 @@
     ]
   },
   "pattern": [
-    "/IS",
-    "T H"
+    " IS",
+    "CTH"
   ],
   "result": {
     "count": 1,
