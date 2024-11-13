@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "P": {
+      "tag": "minecraft:planks"
+    },
+    "#": {
+      "item": "minecraft:paper"
+    },
+    "T": {
+      "item": "tylshardercrafting:quill"
+    }
+  },
+  "pattern": [
+    "## ",
+    "PPT"
+  ],
+  "result": {
+    "count": 1,
+    "id": "minecraft:cartography_table"
+  }
+}

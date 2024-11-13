@@ -1,0 +1,29 @@
+CHANGE:
+- block drops
+- block recipes
+- item recipes
+- remove recipes
+v use of Nether Gold
+o use of leathers/hides
+o mob drops
+o structures
+o changing villager workstations (mainly blast furnace for progression reasons)
+- vanilla textures
+o tags/attributes (eg. Beacon, fuel, ...)
+o code optimisations for compatibility (eg. checking for axes instead of individual items)
+o stone/chainmail/leather buffs/nerfs
+
+ADD:
+- copper equipment
+o Crafting Platform
+o Woodcutter
+o hide/leather processing
+v gravels
+o split logs
+- fractured stones
+o bark from stripping logs
+- basic resources in Nether
+
+UNSURE:
+o copper Cauldron (maybe just 5 iron? or a mix?)
+o Iron Saw (are there any uses beyond just making a Crafting Table?)

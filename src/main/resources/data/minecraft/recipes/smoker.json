@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "L": {
+      "tag": "minecraft:logs"
+    },
+    "F": {
+      "item": "minecraft:furnace"
+    },
+    "W": {
+      "item": "tylshardercrafting:wooden_framing"
+    }
+  },
+  "pattern": [
+    "LLL",
+    "WFW"
+  ],
+  "result": {
+    "count": 1,
+    "id": "minecraft:smoker"
+  }
+}

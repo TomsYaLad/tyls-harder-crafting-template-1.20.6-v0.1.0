@@ -75,8 +75,13 @@ public class ModItemGroups {
     public static final ItemGroup HC_EQUIPMENT_GROUP = Registry.register(Registries.ITEM_GROUP,
             new Identifier(TYLsHarderCrafting.MOD_ID, "hc_equipment"),
             FabricItemGroup.builder().displayName(Text.translatable("itemgroup.hc_equipment"))
-                    .icon(() -> new ItemStack(ModItems.PLACEHOLDER_TYL_HC)).entries((displayContext,entries) -> {
-                        entries.add(ModItems.PLACEHOLDER_TYL_HC);
+                    .icon(() -> new ItemStack(ModItems.PH_TYL_HC)).entries((displayContext,entries) -> {
+                        entries.add(ModItems.COPPER_SWORD);
+                        entries.add(ModItems.COPPER_PICKAXE);
+                        entries.add(ModItems.COPPER_AXE);
+                        entries.add(ModItems.COPPER_SHOVEL);
+                        entries.add(ModItems.COPPER_HOE);
+                        entries.add(ModItems.QUILL);
                     }).build());
 
 

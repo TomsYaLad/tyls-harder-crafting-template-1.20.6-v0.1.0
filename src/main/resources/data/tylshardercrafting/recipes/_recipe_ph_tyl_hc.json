@@ -1,0 +1,11 @@
+{
+  "type": "minecraft:campfire_cooking",
+  "category": "misc",
+  "cookingtime": 10,
+  "ingredient": {
+    "item": "minecraft:stick"
+  },
+  "result": {
+    "id": "tylshardercrafting:ph_tyl_hc"
+  }
+}

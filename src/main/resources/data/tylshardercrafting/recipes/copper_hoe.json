@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "key": {
+    "R": {
+      "item": "minecraft:stick"
+    },
+    "H": {
+      "item": "tylshardercrafting:crude_tool_handle"
+    },
+    "#": {
+      "item": "minecraft:copper_ingot"
+    }
+  },
+  "pattern": [
+    "R#",
+    "H "
+  ],
+  "result": {
+    "count": 1,
+    "id": "tylshardercrafting:copper_hoe"
+  }
+}

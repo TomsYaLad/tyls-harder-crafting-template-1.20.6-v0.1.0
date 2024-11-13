@@ -1,0 +1,31 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "S": {
+      "tag": "minecraft:wooden_slabs"
+    },
+    "M": [
+      {
+        "item": "minecraft:red_mushroom"
+      },
+      {
+        "item": "minecraft:brown_mushroom"
+      },
+      {
+        "item": "minecraft:crimson_fungus"
+      },
+      {
+        "item": "minecraft:warped_fungus"
+      }
+    ]
+  },
+  "pattern": [
+    "SMS",
+    "SSS"
+  ],
+  "result": {
+    "count": 1,
+    "id": "minecraft:composter"
+  }
+}

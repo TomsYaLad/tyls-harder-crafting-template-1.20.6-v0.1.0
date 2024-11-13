@@ -45,6 +45,13 @@
   "item.tylshardercrafting.leather_trimmed": "Trimmed Leather",
   "item.tylshardercrafting.wooden_framing": "Wooden Framing",
   "item.tylshardercrafting.cloth": "Cloth",
+  "item.tylshardercrafting.quill": "Quill",
+
+  "item.tylshardercrafting.copper_sword": "Copper Sword",
+  "item.tylshardercrafting.copper_pickaxe": "Copper Pickaxe",
+  "item.tylshardercrafting.copper_axe": "Copper Axe",
+  "item.tylshardercrafting.copper_shovel": "Copper Shovel",
+  "item.tylshardercrafting.copper_hoe": "Copper Hoe",
 
   "block.tylshardercrafting.fractured_stone": "Fractured Stone",
   "block.tylshardercrafting.fractured_dripstone": "Fractured Dripstone",

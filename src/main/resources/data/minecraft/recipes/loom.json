@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "P": {
+      "tag": "minecraft:planks"
+    },
+    "#": {
+      "item": "minecraft:string"
+    },
+    "T": {
+      "item": "tylshardercrafting:ph_tyl_hc"
+    }
+  },
+  "pattern": [
+    "## ",
+    "PPT"
+  ],
+  "result": {
+    "count": 1,
+    "id": "minecraft:loom"
+  }
+}

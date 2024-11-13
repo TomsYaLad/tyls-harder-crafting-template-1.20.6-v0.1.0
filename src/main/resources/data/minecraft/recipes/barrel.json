@@ -2,9 +2,20 @@
   "type": "minecraft:crafting_shaped",
   "category": "misc",
   "key": {
-    "L": {
-      "tag": "minecraft:planks"
-    },
+    "L": [
+      {
+        "item": "tylshardercrafting:lumber_oak"
+      },
+      {
+        "item": "tylshardercrafting:lumber_birch"
+      },
+      {
+        "item": "tylshardercrafting:lumber_spruce"
+      },
+      {
+        "item": "tylshardercrafting:lumber_acacia"
+      }
+    ],
     "C": {
       "item": "minecraft:copper_ingot"
     }

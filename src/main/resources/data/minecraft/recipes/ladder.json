@@ -2,10 +2,10 @@
   "type": "minecraft:crafting_shaped",
   "category": "misc",
   "key": {
-    "#": {
+    "S": {
       "item": "minecraft:stick"
     },
-    "X": [
+    "L": [
       {
         "item": "tylshardercrafting:lumber_oak"
       },
@@ -14,12 +14,15 @@
       },
       {
         "item": "tylshardercrafting:lumber_spruce"
+      },
+      {
+        "item": "tylshardercrafting:lumber_acacia"
       }
     ]
   },
   "pattern": [
-    "X#X",
-    "X#X"
+    "LSL",
+    "LSL"
   ],
   "result": {
     "count": 4,
