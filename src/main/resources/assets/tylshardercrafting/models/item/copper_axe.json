@@ -1,6 +1,6 @@
 {
   "parent": "item/handheld",
   "textures": {
-    "layer0": "tylshardercrafting:item/ph_tyl_hc"
+    "layer0": "tylshardercrafting:item/copper_axe"
   }
 }

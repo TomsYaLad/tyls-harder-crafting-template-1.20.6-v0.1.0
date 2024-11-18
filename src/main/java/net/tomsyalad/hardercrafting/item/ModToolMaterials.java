@@ -6,12 +6,15 @@ import net.minecraft.item.Items;
 import net.minecraft.item.ToolMaterial;
 import net.minecraft.recipe.Ingredient;
 import net.minecraft.registry.tag.BlockTags;
+import net.minecraft.registry.tag.ItemTags;
 import net.minecraft.registry.tag.TagKey;
 
 import java.util.function.Supplier;
 
 public enum ModToolMaterials implements ToolMaterial
 {
+    STICKS(BlockTags.INCORRECT_FOR_WOODEN_TOOL, 5, 0.5f, 0.0f, 15, () -> Ingredient.ofItems(Items.STICK)),
+    BONES(BlockTags.INCORRECT_FOR_WOODEN_TOOL, 12, 0.5f, 0.0f, 15, () -> Ingredient.ofItems(Items.BONE)),
     COPPER(BlockTags.INCORRECT_FOR_STONE_TOOL, 131, 4.0f, 1.0f, 5, () -> Ingredient.ofItems(Items.COPPER_INGOT));
 
     private final TagKey<Block> inverseTag;

@@ -1,8 +1,5 @@
 package net.tomsyalad.hardercrafting.item;
 
-import net.fabricmc.fabric.api.itemgroup.v1.FabricItemGroupEntries;
-import net.fabricmc.fabric.api.itemgroup.v1.ItemGroupEvents;
-import net.fabricmc.fabric.impl.networking.NetworkHandlerExtensions;
 import net.minecraft.item.*;
 import net.minecraft.registry.Registries;
 import net.minecraft.registry.Registry;
@@ -57,6 +54,7 @@ public class ModItems {
     public static final Item WOODEN_FRAMING = registerItem("wooden_framing", new Item(new Item.Settings()));
     public static final Item CLOTH = registerItem("cloth", new Item(new Item.Settings()));
     public static final Item QUILL = registerItem("quill", new Item(new Item.Settings()));
+    public static final Item FUR = registerItem("fur", new Item(new Item.Settings()));
 
     public static final Item COPPER_SWORD = registerItem("copper_sword",
             new SwordItem(ModToolMaterials.COPPER, new Item.Settings()
@@ -66,13 +64,29 @@ public class ModItems {
                     .attributeModifiers(PickaxeItem.createAttributeModifiers(ModToolMaterials.COPPER, 1, -2.8f))));
     public static final Item COPPER_AXE = registerItem("copper_axe",
             new AxeItem(ModToolMaterials.COPPER, new Item.Settings()
-                    .attributeModifiers(AxeItem.createAttributeModifiers(ModToolMaterials.COPPER, 3, -2.4f))));
+                    .attributeModifiers(AxeItem.createAttributeModifiers(ModToolMaterials.COPPER, 6, -3.2f))));
     public static final Item COPPER_SHOVEL = registerItem("copper_shovel",
             new ShovelItem(ModToolMaterials.COPPER, new Item.Settings()
-                    .attributeModifiers(ShovelItem.createAttributeModifiers(ModToolMaterials.COPPER, 3, -2.4f))));
+                    .attributeModifiers(ShovelItem.createAttributeModifiers(ModToolMaterials.COPPER, 1.5f, -3.0f))));
     public static final Item COPPER_HOE = registerItem("copper_hoe",
             new HoeItem(ModToolMaterials.COPPER, new Item.Settings()
-                    .attributeModifiers(HoeItem.createAttributeModifiers(ModToolMaterials.COPPER, 3, -2.4f))));
+                    .attributeModifiers(HoeItem.createAttributeModifiers(ModToolMaterials.COPPER, 0, -3.0f))));
+    public static final Item SHARPENED_STICK = registerItem("sharpened_stick",
+            new PickaxeItem(ModToolMaterials.STICKS, new Item.Settings()
+                    .attributeModifiers(PickaxeItem.createAttributeModifiers(ModToolMaterials.STICKS, 3, -1.0f))));
+    public static final Item SHARPENED_BONE = registerItem("sharpened_bone",
+            new PickaxeItem(ModToolMaterials.BONES, new Item.Settings()
+                    .attributeModifiers(PickaxeItem.createAttributeModifiers(ModToolMaterials.BONES, 3, -1.2f))));
+    public static final Item SHARPENED_BONE_WITHER = registerItem("sharpened_bone_wither",
+            new PickaxeItem(ModToolMaterials.BONES, new Item.Settings()
+                    .attributeModifiers(PickaxeItem.createAttributeModifiers(ModToolMaterials.BONES, 3, -1.8f))));
+    public static final Item BONE_SCRAPER = registerItem("bone_scraper",
+            new AxeItem(ModToolMaterials.BONES, new Item.Settings()
+                    .attributeModifiers(AxeItem.createAttributeModifiers(ModToolMaterials.BONES, 3, -1.2f))));
+    public static final Item BONE_SCRAPER_COARSE = registerItem("bone_scraper_coarse",
+            new AxeItem(ModToolMaterials.BONES, new Item.Settings()
+                    .attributeModifiers(AxeItem.createAttributeModifiers(ModToolMaterials.BONES, 3, -1.8f))));
+
 
     public static final Item PH_TYL_HC = registerItem("ph_tyl_hc", new Item(new Item.Settings()));
 

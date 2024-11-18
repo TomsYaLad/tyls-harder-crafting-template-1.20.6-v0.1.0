@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "equipment",
+  "group": "bone_scrapers",
+  "ingredients": [
+    {
+      "item": "tylshardercrafting:sharpened_bone_wither"
+    },
+    {
+      "item": "tylshardercrafting:sharpened_bone_wither"
+    }
+  ],
+  "result": {
+    "count": 1,
+    "id": "tylshardercrafting:bone_scraper_coarse"
+  }
+}

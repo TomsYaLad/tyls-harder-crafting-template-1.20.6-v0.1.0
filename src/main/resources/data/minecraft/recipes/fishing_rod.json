@@ -19,10 +19,7 @@
         "item": "minecraft:iron_nugget"
       },
       {
-        "item": "minecraft:bone"
-      },
-      {
-        "item": "tylshardercrafting:wither_bone"
+        "item": "tylshardercrafting:sharpened_bone"
       }
     ]
   },

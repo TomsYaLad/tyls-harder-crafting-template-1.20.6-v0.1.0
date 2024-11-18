@@ -2,19 +2,19 @@
   "type": "minecraft:crafting_shaped",
   "category": "misc",
   "key": {
+    "#": {
+      "item": "minecraft:smooth_stone"
+    },
     "I": {
       "item": "minecraft:iron_ingot"
     },
-    "F": {
+    "X": {
       "item": "minecraft:furnace"
-    },
-    "S": {
-      "item": "minecraft:smooth_stone"
     }
   },
   "pattern": [
     "III",
-    "WFW"
+    "#X#"
   ],
   "result": {
     "count": 1,

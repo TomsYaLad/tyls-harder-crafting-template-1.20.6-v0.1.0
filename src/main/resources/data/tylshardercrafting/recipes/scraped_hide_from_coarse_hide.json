@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "group": "scraped_hide",
+  "ingredients": [
+    {
+      "item": "tylshardercrafting:hide_coarse"
+    },
+    {
+      "item": "tylshardercrafting:bone_scraper_coarse"
+    }
+  ],
+  "result": {
+    "count": 1,
+    "id": "tylshardercrafting:hide_scraped"
+  }
+}

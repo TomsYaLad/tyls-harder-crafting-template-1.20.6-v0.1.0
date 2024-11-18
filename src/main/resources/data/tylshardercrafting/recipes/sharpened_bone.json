@@ -1,0 +1,36 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "equipment",
+  "ingredients": [
+    {
+      "item": "minecraft:bone"
+    },
+    [
+      {
+        "item": "tylshardercrafting:rock"
+      },
+      {
+        "item": "tylshardercrafting:rock_dark"
+      },
+      {
+        "item": "tylshardercrafting:rock_andesite"
+      },
+      {
+        "item": "tylshardercrafting:rock_granite"
+      },
+      {
+        "item": "tylshardercrafting:rock_diorite"
+      },
+      {
+        "item": "tylshardercrafting:rock_tuff"
+      },
+      {
+        "item": "tylshardercrafting:rock_calcite"
+      }
+    ]
+  ],
+  "result": {
+    "count": 1,
+    "id": "tylshardercrafting:sharpened_bone"
+  }
+}

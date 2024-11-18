@@ -1,10 +1,12 @@
 {
-  "type": "minecraft:crafting_shapeless",
+  "type": "minecraft:campfire_cooking",
   "category": "misc",
-  "ingredients": [
-  ],
+  "cookingtime": 900,
+  "experience": 1,
+  "ingredient": {
+    "item": "tylshardercrafting:hide_scraped"
+  },
   "result": {
-    "count": 0,
-    "id": "minecraft:air"
+    "id": "tylshardercrafting:hide_smoked"
   }
 }

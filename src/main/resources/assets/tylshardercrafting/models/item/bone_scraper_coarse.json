@@ -1,0 +1,6 @@
+{
+  "parent": "item/handheld",
+  "textures": {
+    "layer0": "tylshardercrafting:item/bone_scraper_coarse"
+  }
+}
