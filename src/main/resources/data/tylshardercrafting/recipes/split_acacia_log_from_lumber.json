@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "group": "split_logs",
+  "key": {
+    "#": {
+      "item": "tylshardercrafting:lumber_acacia"
+    }
+  },
+  "pattern": [
+    "##",
+    "##"
+  ],
+  "result": {
+    "count": 1,
+    "id": "tylshardercrafting:split_acacia_log"
+  }
+}

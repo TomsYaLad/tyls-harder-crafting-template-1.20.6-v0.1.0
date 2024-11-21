@@ -19,8 +19,10 @@ public class ModItemGroups {
                         entries.add(ModItems.LUMBER_BIRCH);
                         entries.add(ModItems.LUMBER_SPRUCE);
                         entries.add(ModItems.LUMBER_ACACIA);
+                        entries.add(ModBlocks.SPLIT_ACACIA_LOG);
                         entries.add(ModItems.BARK_PIECE);
                         entries.add(ModBlocks.FRACTURED_STONE);
+                        entries.add(ModBlocks.FRACTURED_ANDESITE);
                         entries.add(ModBlocks.FRACTURED_DRIPSTONE);
                         entries.add(ModItems.ROCK);
                         entries.add(ModItems.ROCK_DARK);
@@ -87,6 +89,8 @@ public class ModItemGroups {
                         entries.add(ModItems.COPPER_SHOVEL);
                         entries.add(ModItems.COPPER_HOE);
                         entries.add(ModItems.QUILL);
+                        entries.add(ModItems.MOD_BOWL);
+                        entries.add(ModItems.POTION_BOWL);
                     }).build());
 
 

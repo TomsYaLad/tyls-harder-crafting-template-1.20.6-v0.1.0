@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "group": "mortar",
+  "ingredients": [
+    {
+      "item": "tylshardercrafting:cement"
+    },
+    [
+      {
+        "item": "tylshardercrafting:potion_bowl"
+      },
+      {
+        "item": "minecraft:potion"
+      }
+    ]
+  ],
+  "result": {
+    "count": 1,
+    "id": "tylshardercrafting:mortar"
+  }
+}

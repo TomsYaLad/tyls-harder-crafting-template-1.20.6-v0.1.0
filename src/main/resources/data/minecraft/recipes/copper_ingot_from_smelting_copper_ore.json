@@ -1,12 +1,12 @@
 {
   "type": "minecraft:campfire_cooking",
   "category": "misc",
-  "cookingtime": 900,
-  "experience": 1,
+  "cookingtime": 1,
+  "experience": 0,
   "ingredient": {
-    "item": "tylshardercrafting:hide_scraped"
+    "item": "tylshardercrafting:ph_tyl_hc"
   },
   "result": {
-    "id": "tylshardercrafting:hide_smoked"
+    "id": "tylshardercrafting:ph_tyl_hc"
   }
 }

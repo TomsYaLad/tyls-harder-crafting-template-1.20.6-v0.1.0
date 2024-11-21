@@ -1,5 +1,8 @@
 package net.tomsyalad.hardercrafting.item;
 
+import net.minecraft.component.DataComponentTypes;
+import net.minecraft.component.type.FoodComponents;
+import net.minecraft.component.type.PotionContentsComponent;
 import net.minecraft.item.*;
 import net.minecraft.registry.Registries;
 import net.minecraft.registry.Registry;
@@ -87,6 +90,9 @@ public class ModItems {
             new AxeItem(ModToolMaterials.BONES, new Item.Settings()
                     .attributeModifiers(AxeItem.createAttributeModifiers(ModToolMaterials.BONES, 3, -1.8f))));
 
+    public static final Item POTION_BOWL = registerItem("potion_bowl",
+            new PotionBowlItem(new Item.Settings().maxCount(1).component(DataComponentTypes.POTION_CONTENTS, PotionContentsComponent.DEFAULT)));
+    public static final Item MOD_BOWL = registerItem("mod_bowl", new BowlItem(new Item.Settings()));
 
     public static final Item PH_TYL_HC = registerItem("ph_tyl_hc", new Item(new Item.Settings()));
 

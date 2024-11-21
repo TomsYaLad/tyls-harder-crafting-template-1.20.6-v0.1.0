@@ -59,7 +59,12 @@
   "item.tylshardercrafting.copper_shovel": "Copper Shovel",
   "item.tylshardercrafting.copper_hoe": "Copper Hoe",
 
+  "item.tylshardercrafting.potion_bowl.effect.water": "Water Bowl",
+  "item.tylshardercrafting.potion_bowl.effect.empty": "Water Bowl",
+
+  "block.tylshardercrafting.split_acacia_log": "Split Acacia Log",
   "block.tylshardercrafting.fractured_stone": "Fractured Stone",
+  "block.tylshardercrafting.fractured_andesite": "Fractured Andesite",
   "block.tylshardercrafting.fractured_dripstone": "Fractured Dripstone",
   "block.tylshardercrafting.gravel_dark": "Dark Gravel",
   "block.tylshardercrafting.gravel_mixed": "Mixed Gravel",

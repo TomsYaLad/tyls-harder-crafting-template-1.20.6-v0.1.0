@@ -1,7 +1,7 @@
 {
   "type": "minecraft:campfire_cooking",
   "category": "misc",
-  "cookingtime": 10,
+  "cookingtime": 1,
   "ingredient": {
     "item": "minecraft:stick"
   },

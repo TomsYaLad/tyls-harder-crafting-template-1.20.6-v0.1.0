@@ -1,0 +1,7 @@
+{
+  "parent": "minecraft:block/cube_column",
+  "textures":{
+    "end": "tylshardercrafting:block/split_acacia_log_top",
+    "side": "tylshardercrafting:block/split_acacia_log"
+  }
+}
