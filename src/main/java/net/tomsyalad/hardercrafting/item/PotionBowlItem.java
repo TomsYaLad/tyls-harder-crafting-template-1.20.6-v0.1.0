@@ -128,13 +128,5 @@ extends Item {
         return Potion.finishTranslationKey(stack.getOrDefault(DataComponentTypes.POTION_CONTENTS, PotionContentsComponent.DEFAULT).potion(), this.getTranslationKey() + ".effect.");
     }
 
-    @Override
-    public void appendTooltip(ItemStack stack, TooltipContext context, List<Text> tooltip, TooltipType type) {
-        PotionContentsComponent potionContentsComponent = stack.get(DataComponentTypes.POTION_CONTENTS);
-        if (potionContentsComponent == null) {
-            return;
-        }
-        potionContentsComponent.buildTooltip(tooltip::add, 1.0f, context.getUpdateTickRate());
-    }
 }
 

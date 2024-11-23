@@ -2,10 +2,12 @@ package net.tomsyalad.hardercrafting.block;
 
 import com.mojang.serialization.MapCodec;
 import net.minecraft.block.*;
+import net.minecraft.block.enums.Instrument;
 import net.minecraft.item.BlockItem;
 import net.minecraft.item.Item;
 import net.minecraft.registry.Registries;
 import net.minecraft.registry.Registry;
+import net.minecraft.sound.BlockSoundGroup;
 import net.minecraft.util.Identifier;
 import net.tomsyalad.hardercrafting.TYLsHarderCrafting;
 
@@ -22,34 +24,34 @@ public class ModBlocks {
             new Block(AbstractBlock.Settings.copy(Blocks.GOLD_BLOCK)));
     public static final Block SPLIT_ACACIA_LOG = registerBlock("split_acacia_log",
             Blocks.createLogBlock(MapColor.ORANGE, MapColor.ORANGE));
+
+    public static final Block CRAFTING_PLATFORM = registerBlock("crafting_platform",
+            new CraftingPlatformBlock(AbstractBlock.Settings.create().mapColor(MapColor.OAK_TAN).instrument(Instrument.BASS).strength(2.5f).sounds(BlockSoundGroup.WOOD).burnable()));
+    public static final Block BRICK_OVEN = registerBlock("brick_oven",
+            new FurnaceBlock(AbstractBlock.Settings.create().mapColor(MapColor.RED).instrument(Instrument.BASEDRUM).requiresTool().strength(3.5f).luminance(Blocks.createLightLevelFromLitBlockState(13))));
+    public static final Block TANNING_BARREL = registerBlock("tanning_barrel",
+            new Block(AbstractBlock.Settings.copy(Blocks.BARREL)));
+    public static final Block WOODCUTTER = registerBlock("woodcutter",
+            new WoodcutterBlock(AbstractBlock.Settings.create().mapColor(MapColor.STONE_GRAY).instrument(Instrument.BASEDRUM).requiresTool().strength(3.5f)));
+
+
     public static final Block GRAVEL_DARK = registerBlock("gravel_dark",
             new FallingBlock(AbstractBlock.Settings.copy(Blocks.GRAVEL).mapColor(MapColor.DEEPSLATE_GRAY)) {
                 @Override
                 protected MapCodec<? extends FallingBlock> getCodec() {
-                    return null;
-                }
-            });
+                    return null; } });
     public static final Block GRAVEL_MIXED = registerBlock("gravel_mixed",
             new FallingBlock(AbstractBlock.Settings.copy(Blocks.GRAVEL).mapColor(MapColor.GRAY)) {
                 @Override
-                protected MapCodec<? extends FallingBlock> getCodec() {
-                    return null;
-                }
-            });
+                protected MapCodec<? extends FallingBlock> getCodec() { return null; } });
     public static final Block GRAVEL_PALE = registerBlock("gravel_pale",
             new FallingBlock(AbstractBlock.Settings.copy(Blocks.GRAVEL).mapColor(MapColor.OFF_WHITE)) {
                 @Override
-                protected MapCodec<? extends FallingBlock> getCodec() {
-                    return null;
-                }
-            });
+                protected MapCodec<? extends FallingBlock> getCodec() { return null; } });
     public static final Block GRAVEL_RUSTIC = registerBlock("gravel_rustic",
             new FallingBlock(AbstractBlock.Settings.copy(Blocks.GRAVEL).mapColor(MapColor.TERRACOTTA_BROWN)) {
                 @Override
-                protected MapCodec<? extends FallingBlock> getCodec() {
-                    return null;
-                }
-            });
+                protected MapCodec<? extends FallingBlock> getCodec() { return null; } });
 
 
 

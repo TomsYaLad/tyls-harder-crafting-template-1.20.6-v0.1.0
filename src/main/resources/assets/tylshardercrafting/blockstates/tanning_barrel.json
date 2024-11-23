@@ -1,0 +1,10 @@
+{
+  "variants": {
+    "open=false": {
+      "model": "tylshardercrafting:block/tanning_barrel"
+    },
+    "open=true": {
+      "model": "tylshardercrafting:block/tanning_barrel_open"
+    }
+  }
+}

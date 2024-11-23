@@ -47,6 +47,7 @@
   "item.tylshardercrafting.cloth": "Cloth",
   "item.tylshardercrafting.quill": "Quill",
   "item.tylshardercrafting.fur": "Fur",
+  "item.tylshardercrafting.mod_bowl": "Bowl",
 
   "item.tylshardercrafting.sharpened_stick": "Sharpened Stick",
   "item.tylshardercrafting.sharpened_bone": "Sharpened Bone",
@@ -72,6 +73,24 @@
   "block.tylshardercrafting.gravel_rustic": "Rustic Gravel",
   "block.tylshardercrafting.nether_gold_block": "Nether Gold Block",
   "block.tylshardercrafting.raw_nether_gold_block": "Raw Nether Gold Block",
+
+  "block.tylshardercrafting.crafting_platform": "Crafting Platform",
+  "stat.tylshardercrafting.interact_with_crafting_platform": "Interactions with Crafting Platform",
+
+  "block.tylshardercrafting.Brick Oven": "Brick Oven",
+  "container.brick_oven": "Brick Oven",
+  "stat.tylshardercrafting.interact_with_brick_oven": "Interactions with Brick Oven",
+  "subtitles.block.brick_oven.fire_crackle": "Brick Oven crackles",
+
+  "block.tylshardercrafting.tanning_barrel": "Tanning barrel",
+  "container.tanning_barrel": "Tanning",
+  "subtitles.block.tanning_barrel.close": "Tanning Barrel closes",
+  "subtitles.block.tanning_barrel.open": "Tanning Barrel opens",
+
+  "block.tylshardercrafting.woodcutter": "Woodcutter",
+  "container.woodcutter": "Woodcutter",
+  "stat.tylshardercrafting.interact_with_woodcutter": "Interactions with Woodcutter",
+  "subtitles.ui.woodcutter.take_result": "Woodcutter used",
 
   "itemgroup.hc_materials": "Materials (TYL HC)",
   "itemgroup.hc_equipment": "Equipment (TYL HC)"

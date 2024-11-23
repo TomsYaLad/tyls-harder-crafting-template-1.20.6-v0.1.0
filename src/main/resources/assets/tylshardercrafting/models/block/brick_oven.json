@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/orientable",
+  "textures": {
+    "front": "minecraft:block/furnace_front",
+    "side": "tylshardercrafting:block/ph_tyl_hc_block",
+    "top": "tylshardercrafting:block/ph_tyl_hc_block"
+  }
+}

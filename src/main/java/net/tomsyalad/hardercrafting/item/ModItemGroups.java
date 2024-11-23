@@ -88,6 +88,10 @@ public class ModItemGroups {
                         entries.add(ModItems.COPPER_AXE);
                         entries.add(ModItems.COPPER_SHOVEL);
                         entries.add(ModItems.COPPER_HOE);
+                        entries.add(ModBlocks.CRAFTING_PLATFORM);
+                        entries.add(ModBlocks.BRICK_OVEN);
+                        entries.add(ModBlocks.TANNING_BARREL);
+                        entries.add(ModBlocks.WOODCUTTER);
                         entries.add(ModItems.QUILL);
                         entries.add(ModItems.MOD_BOWL);
                         entries.add(ModItems.POTION_BOWL);

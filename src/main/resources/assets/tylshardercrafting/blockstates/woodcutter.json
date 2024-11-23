@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=east": {
+      "model": "tylshardercrafting:block/woodcutter",
+      "y": 90
+    },
+    "facing=north": {
+      "model": "tylshardercrafting:block/woodcutter"
+    },
+    "facing=south": {
+      "model": "tylshardercrafting:block/woodcutter",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "tylshardercrafting:block/woodcutter",
+      "y": 270
+    }
+  }
+}
