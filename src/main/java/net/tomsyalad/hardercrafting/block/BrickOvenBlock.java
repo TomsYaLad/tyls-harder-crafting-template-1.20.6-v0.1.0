@@ -5,11 +5,13 @@ package net.tomsyalad.hardercrafting.block;
 
 import com.mojang.serialization.MapCodec;
 import net.minecraft.block.AbstractFurnaceBlock;
+// create version
 import net.minecraft.block.BlockState;
 import net.minecraft.block.entity.BlockEntity;
 import net.minecraft.block.entity.BlockEntityTicker;
 import net.minecraft.block.entity.BlockEntityType;
 import net.minecraft.block.entity.FurnaceBlockEntity;
+// create version
 import net.minecraft.entity.player.PlayerEntity;
 import net.minecraft.particle.ParticleTypes;
 import net.minecraft.screen.NamedScreenHandlerFactory;
@@ -24,6 +26,7 @@ import org.jetbrains.annotations.Nullable;
 
 public class BrickOvenBlock
 extends AbstractFurnaceBlock {
+    // edit after creating version
     public static final MapCodec<BrickOvenBlock> CODEC = BrickOvenBlock.createCodec(BrickOvenBlock::new);
 
     public MapCodec<BrickOvenBlock> getCodec() {
@@ -38,19 +41,23 @@ extends AbstractFurnaceBlock {
     public BlockEntity createBlockEntity(BlockPos pos, BlockState state) {
         return new FurnaceBlockEntity(pos, state);
     }
+    //edit after creating version
 
     @Override
     @Nullable
     public <T extends BlockEntity> BlockEntityTicker<T> getTicker(World world, BlockState state, BlockEntityType<T> type) {
         return BrickOvenBlock.validateTicker(world, type, BlockEntityType.FURNACE);
+        //edit after creating version
     }
 
     @Override
     protected void openScreen(World world, BlockPos pos, PlayerEntity player) {
         BlockEntity blockEntity = world.getBlockEntity(pos);
         if (blockEntity instanceof FurnaceBlockEntity) {
+            //edit after creating version
             player.openHandledScreen((NamedScreenHandlerFactory)((Object)blockEntity));
             player.incrementStat(Stats.INTERACT_WITH_FURNACE);
+            //edit after creating version
         }
     }
 
