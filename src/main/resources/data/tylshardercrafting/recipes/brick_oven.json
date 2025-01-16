@@ -1,0 +1,45 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "group": "furnace",
+  "key": {
+    "B": [
+      {
+        "item": "minecraft:bricks"
+      },
+      {
+        "item": "minecraft:nether_bricks"
+      },
+      {
+        "item": "minecraft:red_nether_bricks"
+      }
+    ],
+    "F": [
+      {
+        "item": "minecraft:campfire"
+      },
+      {
+        "item": "minecraft:soul_campfire"
+      }
+    ],
+    "S": [
+      {
+        "item": "minecraft:brick_slab"
+      },
+      {
+        "item": "minecraft:nether_brick_slab"
+      },
+      {
+        "item": "minecraft:red_nether_brick_slab"
+      }
+    ]
+  },
+  "pattern": [
+    "SSS",
+    "BFB"
+  ],
+  "result": {
+    "count": 1,
+    "id": "tylshardercrafting:brick_oven"
+  }
+}

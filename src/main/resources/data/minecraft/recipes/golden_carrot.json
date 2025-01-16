@@ -2,14 +2,9 @@
   "type": "minecraft:crafting_shaped",
   "category": "misc",
   "key": {
-    "#": [
-      {
-        "item": "minecraft:gold_nugget"
-      },
-      {
-        "item": "tylshardercrafting:nether_gold_nugget"
-      }
-    ],
+    "#": {
+      "tag": "tylshardercrafting:gold_nuggets"
+    },
     "X": {
       "item": "minecraft:carrot"
     }

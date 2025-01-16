@@ -7,16 +7,10 @@
     },
     [
       {
-        "item": "tylshardercrafting:hide_scraped"
+        "tag": "tylshardercrafting:prepared_hides"
       },
       {
-        "item": "tylshardercrafting:hide_smoked"
-      },
-      {
-        "item": "tylshardercrafting:leather_tanned"
-      },
-      {
-        "item": "tylshardercrafting:leather_trimmed"
+        "tag": "tylshardercrafting:leathers"
       }
     ]
   ],

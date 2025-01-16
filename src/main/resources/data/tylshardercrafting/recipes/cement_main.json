@@ -31,17 +31,9 @@
         "item": "tylshardercrafting:tailings"
       }
     ],
-    [
-      {
-        "item": "tylshardercrafting:pile_sand"
-      },
-      {
-        "item": "tylshardercrafting:pile_sand_red"
-      },
-      {
-        "item": "tylshardercrafting:pile_sand_soul"
-      }
-    ]
+    {
+      "tag": "tylshardercrafting:sand_piles"
+    }
   ],
   "result": {
     "count": 3,

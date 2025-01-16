@@ -24,13 +24,10 @@
         "item": "tylshardercrafting:raw_gold_nugget"
       },
       {
-        "item": "minecraft:gold_nugget"
-      },
-      {
         "item": "tylshardercrafting:raw_nether_gold_nugget"
       },
       {
-        "item": "tylshardercrafting:nether_gold_nugget"
+        "tag": "tylshardercrafting:gold_nuggets"
       }
     ],
     [

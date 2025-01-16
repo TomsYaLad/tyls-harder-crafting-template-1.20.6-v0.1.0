@@ -2,36 +2,16 @@
   "type": "minecraft:crafting_shaped",
   "category": "misc",
   "key": {
-    "#": {
+    "S": {
       "item": "minecraft:stick"
     },
-    "X": [
-      {
-        "item": "tylshardercrafting:rock"
-      },
-      {
-        "item": "tylshardercrafting:rock_dark"
-      },
-      {
-        "item": "tylshardercrafting:rock_andesite"
-      },
-      {
-        "item": "tylshardercrafting:rock_granite"
-      },
-      {
-        "item": "tylshardercrafting:rock_diorite"
-      },
-      {
-        "item": "tylshardercrafting:rock_tuff"
-      },
-      {
-        "item": "tylshardercrafting:rock_calcite"
-      }
-    ]
+    "R": {
+      "tag": "tylshardercrafting:rocks"
+    }
   },
   "pattern": [
-    " #",
-    "#X"
+    " S",
+    "SR"
   ],
   "result": {
     "count": 1,

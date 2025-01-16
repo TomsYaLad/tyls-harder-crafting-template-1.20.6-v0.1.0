@@ -1,0 +1,12 @@
+{
+  "replace": false,
+  "values": [
+    "tylshardercrafting:rock",
+    "tylshardercrafting:rock_dark",
+    "tylshardercrafting:rock_andesite",
+    "tylshardercrafting:rock_granite",
+    "tylshardercrafting:rock_diorite",
+    "tylshardercrafting:rock_tuff",
+    "tylshardercrafting:rock_calcite"
+  ]
+}

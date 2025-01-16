@@ -1,0 +1,9 @@
+{
+  "replace": false,
+  "values": [
+    "tylshardercrafting:lumber_oak",
+    "tylshardercrafting:lumber_birch",
+    "tylshardercrafting:lumber_spruce",
+    "tylshardercrafting:lumber_acacia"
+  ]
+}

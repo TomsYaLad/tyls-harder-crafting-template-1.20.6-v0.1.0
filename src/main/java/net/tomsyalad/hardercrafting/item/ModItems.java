@@ -75,23 +75,23 @@ public class ModItems {
             new HoeItem(ModToolMaterials.COPPER, new Item.Settings()
                     .attributeModifiers(HoeItem.createAttributeModifiers(ModToolMaterials.COPPER, 0, -3.0f))));
     public static final Item SHARPENED_STICK = registerItem("sharpened_stick",
-            new PickaxeItem(ModToolMaterials.STICKS, new Item.Settings()
-                    .attributeModifiers(PickaxeItem.createAttributeModifiers(ModToolMaterials.STICKS, 3, -1.0f))));
+            new KnifeItem(ModToolMaterials.STICKS, new Item.Settings()
+                    .attributeModifiers(KnifeItem.createAttributeModifiers(ModToolMaterials.STICKS, 3, -1.0f))));
     public static final Item SHARPENED_BONE = registerItem("sharpened_bone",
-            new PickaxeItem(ModToolMaterials.BONES, new Item.Settings()
-                    .attributeModifiers(PickaxeItem.createAttributeModifiers(ModToolMaterials.BONES, 3, -1.2f))));
+            new KnifeItem(ModToolMaterials.BONES, new Item.Settings()
+                    .attributeModifiers(KnifeItem.createAttributeModifiers(ModToolMaterials.BONES, 3, -1.2f))));
     public static final Item SHARPENED_BONE_WITHER = registerItem("sharpened_bone_wither",
-            new PickaxeItem(ModToolMaterials.BONES, new Item.Settings()
-                    .attributeModifiers(PickaxeItem.createAttributeModifiers(ModToolMaterials.BONES, 3, -1.8f))));
+            new KnifeItem(ModToolMaterials.BONES, new Item.Settings()
+                    .attributeModifiers(KnifeItem.createAttributeModifiers(ModToolMaterials.BONES, 3, -1.8f))));
     public static final Item BONE_SCRAPER = registerItem("bone_scraper",
-            new AxeItem(ModToolMaterials.BONES, new Item.Settings()
-                    .attributeModifiers(AxeItem.createAttributeModifiers(ModToolMaterials.BONES, 3, -1.2f))));
+            new StripperItem(ModToolMaterials.BONES, new Item.Settings()));
     public static final Item BONE_SCRAPER_COARSE = registerItem("bone_scraper_coarse",
-            new AxeItem(ModToolMaterials.BONES, new Item.Settings()
-                    .attributeModifiers(AxeItem.createAttributeModifiers(ModToolMaterials.BONES, 3, -1.8f))));
+            new StripperItem(ModToolMaterials.BONES, new Item.Settings()));
+    public static final Item MYTHIC_QUILL = registerItem("mythic_quill",
+            new ToolItem(ModToolMaterials.GLOW_INK, new Item.Settings()));
 
     public static final Item POTION_BOWL = registerItem("potion_bowl",
-            new PotionBowlItem(new Item.Settings().maxCount(1).component(DataComponentTypes.POTION_CONTENTS, PotionContentsComponent.DEFAULT)));
+            new PotionBowlItem(new Item.Settings().recipeRemainder(Items.BOWL).maxCount(1).component(DataComponentTypes.POTION_CONTENTS, PotionContentsComponent.DEFAULT)));
     public static final Item MOD_BOWL = registerItem("mod_bowl", new BowlItem(new Item.Settings()));
 
     public static final Item PH_TYL_HC = registerItem("ph_tyl_hc", new Item(new Item.Settings()));

@@ -8,14 +8,9 @@
     "X": {
       "item": "minecraft:redstone"
     },
-    "Q": [
-      {
-        "item": "minecraft:quartz"
-      },
-      {
-        "item": "minecraft:amethyst_shard"
-      }
-    ]
+    "Q": {
+      "tag": "tylshardercrafting:quartz_tag"
+    }
   },
   "pattern": [
     "#X#",

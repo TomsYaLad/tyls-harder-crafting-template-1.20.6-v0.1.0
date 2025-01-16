@@ -2,14 +2,9 @@
   "type": "minecraft:crafting_shaped",
   "category": "misc",
   "key": {
-    "#": [
-      {
-        "item": "minecraft:gold_ingot"
-      },
-      {
-        "item": "tylshardercrafting:nether_gold_ingot"
-      }
-    ],
+    "#": {
+      "tag": "tylshardercrafting:gold_ingots"
+    },
     "X": {
       "item": "minecraft:apple"
     }

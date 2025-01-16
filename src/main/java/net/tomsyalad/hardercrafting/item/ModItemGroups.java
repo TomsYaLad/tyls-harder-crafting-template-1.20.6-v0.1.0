@@ -93,6 +93,7 @@ public class ModItemGroups {
                         entries.add(ModBlocks.TANNING_BARREL);
                         entries.add(ModBlocks.WOODCUTTER);
                         entries.add(ModItems.QUILL);
+                        entries.add(ModItems.MYTHIC_QUILL);
                         entries.add(ModItems.MOD_BOWL);
                         entries.add(ModItems.POTION_BOWL);
                     }).build());

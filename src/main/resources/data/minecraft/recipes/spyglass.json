@@ -8,14 +8,9 @@
     "C": {
       "item": "minecraft:copper_ingot"
     },
-    "L": [
-      {
-        "item": "tylshardercrafting:leather_tanned"
-      },
-      {
-        "item": "tylshardercrafting:leather_trimmed"
-      }
-    ]
+    "L": {
+      "tag": "tylshardercrafting:leathers"
+    }
   },
   "pattern": [
     " PP",

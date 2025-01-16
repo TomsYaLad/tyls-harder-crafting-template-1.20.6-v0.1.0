@@ -1,0 +1,29 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "group": "furnace",
+  "key": {
+    "C": {
+      "tag": "tylshardercrafting:cobblestones"
+    },
+    "F": [
+      {
+        "item": "minecraft:campfire"
+      },
+      {
+        "item": "minecraft:soul_campfire"
+      }
+    ],
+    "S": {
+      "tag": "tylshardercrafting:stone_slabs"
+    }
+  },
+  "pattern": [
+    "SSS",
+    "CFC"
+  ],
+  "result": {
+    "count": 1,
+    "id": "minecraft:furnace"
+  }
+}

@@ -15,7 +15,8 @@ public enum ModToolMaterials implements ToolMaterial
 {
     STICKS(BlockTags.INCORRECT_FOR_WOODEN_TOOL, 5, 0.5f, 0.0f, 15, () -> Ingredient.ofItems(Items.STICK)),
     BONES(BlockTags.INCORRECT_FOR_WOODEN_TOOL, 12, 0.5f, 0.0f, 15, () -> Ingredient.ofItems(Items.BONE)),
-    COPPER(BlockTags.INCORRECT_FOR_STONE_TOOL, 131, 4.0f, 1.0f, 5, () -> Ingredient.ofItems(Items.COPPER_INGOT));
+    COPPER(BlockTags.INCORRECT_FOR_STONE_TOOL, 131, 4.0f, 1.0f, 5, () -> Ingredient.ofItems(Items.COPPER_INGOT)),
+    GLOW_INK(BlockTags.INCORRECT_FOR_WOODEN_TOOL, 4, 0.0f, 0.0f, 0, () -> Ingredient.ofItems(Items.GLOW_INK_SAC));
 
     private final TagKey<Block> inverseTag;
     private final int itemDurability;

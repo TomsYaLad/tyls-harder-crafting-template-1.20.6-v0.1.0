@@ -1,0 +1,7 @@
+{
+  "replace": false,
+  "values": [
+    "minecraft:gold_nugget",
+    "tylshardercrafting:nether_gold_nugget"
+  ]
+}

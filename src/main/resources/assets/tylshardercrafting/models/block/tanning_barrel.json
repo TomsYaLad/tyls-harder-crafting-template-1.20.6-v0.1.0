@@ -3,6 +3,6 @@
   "textures": {
     "bottom": "minecraft:block/barrel_bottom",
     "side": "tylshardercrafting:block/tanning_barrel_side",
-    "top": "tylshardercrafting:block/ph_tyl_hc_block"
+    "top": "tylshardercrafting:item/ph_tyl_hc"
   }
 }

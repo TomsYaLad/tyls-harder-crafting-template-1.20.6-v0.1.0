@@ -46,6 +46,7 @@
   "item.tylshardercrafting.wooden_framing": "Wooden Framing",
   "item.tylshardercrafting.cloth": "Cloth",
   "item.tylshardercrafting.quill": "Quill",
+  "item.tylshardercrafting.mythic_quill": "Mythic Quill",
   "item.tylshardercrafting.fur": "Fur",
   "item.tylshardercrafting.mod_bowl": "Bowl",
 
@@ -77,7 +78,7 @@
   "block.tylshardercrafting.crafting_platform": "Crafting Platform",
   "stat.tylshardercrafting.interact_with_crafting_platform": "Interactions with Crafting Platform",
 
-  "block.tylshardercrafting.Brick Oven": "Brick Oven",
+  "block.tylshardercrafting.brick_oven": "Brick Oven",
   "container.brick_oven": "Brick Oven",
   "stat.tylshardercrafting.interact_with_brick_oven": "Interactions with Brick Oven",
   "subtitles.block.brick_oven.fire_crackle": "Brick Oven crackles",

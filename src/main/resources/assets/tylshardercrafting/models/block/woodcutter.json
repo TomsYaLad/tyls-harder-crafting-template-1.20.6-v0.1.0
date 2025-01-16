@@ -3,8 +3,8 @@
         "particle": "minecraft:block/stonecutter_bottom",
         "bottom": "minecraft:block/stonecutter_bottom",
         "top": "minecraft:block/stonecutter_top",
-        "side": "tylshardercrafting:block/ph_tyl_hc_block",
-        "saw": "tylshardercrafting:block/ph_tyl_hc_block"
+        "side": "tylshardercrafting:item/ph_tyl_hc",
+        "saw": "tylshardercrafting:item/ph_tyl_hc"
     },
     "elements": [
         {   "from": [ 0, 0, 0 ],

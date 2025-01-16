@@ -2,47 +2,18 @@
   "type": "minecraft:crafting_shapeless",
   "category": "misc",
   "ingredients": [
-    [
-      {
-        "item": "tylshardercrafting:pile_sand"
-      },
-      {
-        "item": "tylshardercrafting:pile_sand_red"
-      },
-      {
-        "item": "tylshardercrafting:pile_sand_soul"
-      }
-    ],
-    [
-      {
-        "item": "tylshardercrafting:pile_sand"
-      },
-      {
-        "item": "tylshardercrafting:pile_sand_red"
-      },
-      {
-        "item": "tylshardercrafting:pile_sand_soul"
-      }
-    ],
-    [
-      {
-        "item": "tylshardercrafting:pile_sand"
-      },
-      {
-        "item": "tylshardercrafting:pile_sand_red"
-      },
-      {
-        "item": "tylshardercrafting:pile_sand_soul"
-      }
-    ],
-    [
-      {
-        "item": "minecraft:quartz"
-      },
-      {
-        "item": "minecraft:amethyst_shard"
-      }
-    ]
+    {
+      "tag": "tylshardercrafting:sand_piles"
+    },
+    {
+      "tag": "tylshardercrafting:sand_piles"
+    },
+    {
+      "tag": "tylshardercrafting:sand_piles"
+    },
+    {
+      "tag": "tylshardercrafting:quartz_tag"
+    }
   ],
   "result": {
     "count": 3,
